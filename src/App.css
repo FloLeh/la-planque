@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'SF Movie Poster';
+  src: url('./assets/fonts/SF_Movie_Poster.ttf');
+}
+
+@font-face {
+  font-family: 'Microsoft Yi Baiti';
+  src: url('./assets/fonts/Microsoft_Yi_Baiti.ttf');
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -11,7 +21,6 @@ body {
 
 .App, #root {
   height: 100%;
-  z-index: 1;
 }
 
 ul {

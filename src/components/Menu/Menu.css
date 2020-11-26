@@ -1,8 +1,3 @@
-@font-face {
-  font-family: 'SF Movie Poster';
-  src: url('../../assets/fonts/SF_Movie_Poster.ttf');
-}
-
 .menu {
   z-index: 10;
 }

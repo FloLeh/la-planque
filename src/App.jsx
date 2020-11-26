@@ -1,8 +1,9 @@
+/* eslint-disable no-unused-vars */
 import './App.css'
 import { Header } from './components'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import React, { Component } from 'react'
-import Home from './pages/Home/Home'
+import { Missions, Home, Projets } from './pages'
 
 class App extends Component {
   render () {
@@ -11,9 +12,13 @@ class App extends Component {
         <Router>
           {/* <ScrollToTop/> */}
           <Header/>
-          <Switch>
+          <Home/>
+          <Missions/>
+          <Projets/>
+          {/* <Switch>
             <Route path='/' exact component={() => <Home/>}/>
-          </Switch>
+            <Route path='/missions' exact component={() => <Missions/>}/>
+          </Switch> */}
         </Router>
       </div>
     )

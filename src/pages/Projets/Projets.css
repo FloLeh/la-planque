@@ -1,0 +1,19 @@
+.projets {
+  background-image: url('../../assets/images/shadow3.png');
+  background-size: cover;
+  height: 100vh;
+}
+
+.projects__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  height: calc(100% - 100px);
+  padding: 50px 250px;
+}
+
+.projet {
+  border: 2px solid #000;
+  background: url('../../assets/images/panda_roux1.webp');
+  background-size: cover;
+}

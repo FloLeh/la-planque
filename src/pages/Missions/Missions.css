@@ -1,0 +1,58 @@
+.missions {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pictos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  padding: 60px 0;
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  min-height: 280px;
+  z-index: 40;
+}
+
+.mission__shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  filter: brightness(0.62) contrast(4);
+  z-index: 10;
+}
+
+.mission img {
+  width: 8vw;
+}
+
+.mission:last-of-type img {
+  width: 9.5vw;
+}
+
+.mission div {
+  font-family: 'SF Movie Poster';
+  font-size: 40pt;
+  letter-spacing: 4px;
+  width: 99%;
+  line-height: 0.9;
+}
+
+.mission__bottom {
+  text-align: center;
+  font-family: 'Microsoft Yi Baiti';
+  z-index: 40;
+  font-size: 20pt;
+  font-weight: 600;
+}

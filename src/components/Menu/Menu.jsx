@@ -10,7 +10,7 @@ export class Menu extends Component {
       <div className='menu'>
         <nav>
           <ul>
-            <li><Link to="">MISSIONS</Link><span></span></li>
+            <li><Link to="/missions">MISSIONS</Link><span></span></li>
             <li><Link to="">PROJETS</Link><span></span></li>
             <li><Link to="/">
               <img className='menu__logo' src={logo} alt='logo'></img>
