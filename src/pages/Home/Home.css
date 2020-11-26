@@ -5,7 +5,16 @@
   align-items: center;
 }
 
-.home > img {
-  width: 400px;
-  margin: auto;
+.home__shadow {
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  opacity: 0.4;
+  filter: brightness(0.65) contrast(4);
+  z-index: 30;
+}
+
+.home__logo {
+  width: 600px;
+  z-index: 40;
 }

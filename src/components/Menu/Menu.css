@@ -3,6 +3,10 @@
   src: url('../../assets/fonts/SF_Movie_Poster.ttf');
 }
 
+.menu {
+  z-index: 10;
+}
+
 .menu ul {
   display: flex;
   flex-direction: row;
