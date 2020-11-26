@@ -3,7 +3,7 @@ import './App.css'
 import { Header } from './components'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import React, { Component } from 'react'
-import { Missions, Home, Projets } from './pages'
+import { Missions, Home, Projets, Collectif, Contact } from './pages'
 
 class App extends Component {
   render () {
@@ -15,6 +15,8 @@ class App extends Component {
           <Home/>
           <Missions/>
           <Projets/>
+          <Collectif/>
+          <Contact/>
           {/* <Switch>
             <Route path='/' exact component={() => <Home/>}/>
             <Route path='/missions' exact component={() => <Missions/>}/>

@@ -1,0 +1,54 @@
+.contact {
+  height: 100vh;
+  font-family: 'SF Movie Poster';
+}
+
+.contact__shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  filter: brightness(0.62) contrast(4);
+  z-index: 10;
+}
+
+.contact__container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__container .email {
+  z-index: 20;
+  font-size: 50px;
+  letter-spacing: 5px;
+  text-decoration: underline;
+}
+
+.contact__tel {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 40px;
+  letter-spacing: 4px;
+  line-height: 0.5;
+}
+
+.contact__tel .lisa {
+  text-align: right;
+}
+
+.contact__tel .sep {
+  height: 100%;
+  border: 1px solid #000;
+  margin: 0 20px;
+}
+
+.contact__tel .tel {
+  color: rgb(62, 145, 173);
+}
