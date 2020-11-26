@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'SF Movie Poster';
+  src: url('../../assets/fonts/SF_Movie_Poster.ttf');
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu li {
+  margin-right: 35px;
+  font-family: 'SF Movie Poster';
+  font-size: 24pt;
+  line-height: 21.6pt;
+  letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu a {
+  color: #000;
+}
+
+.menu li span {
+  height: 1px;
+  width: 0%;
+  background: #000;
+  transition: .3s ease;
+}
+
+.menu li:hover span {
+  width: 100%;
+} 
+
+.menu__logo {
+  width: 200px;
+}
