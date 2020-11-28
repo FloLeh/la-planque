@@ -10,7 +10,7 @@ import './Missions.css'
 export class Missions extends Component {
   render() {
     return (
-      <div className='missions'>
+      <div id='missions' className='missions'>
         <img className='mission__shadow' src={shadow2} alt="shadow2"/>
         <div className="pictos">
           <div className="mission">

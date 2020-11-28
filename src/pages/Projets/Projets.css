@@ -18,10 +18,3 @@
   height: calc(100% - 100px);
   padding: 50px 250px;
 }
-
-.projet {
-  border: 2px solid #000;
-  background: url('../../assets/images/panda_roux1.webp');
-  background-size: cover;
-  z-index: 20;
-}

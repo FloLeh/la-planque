@@ -1,0 +1,27 @@
+.scrollToTop {
+  background: url('../../assets/images/arrow.png');
+  background-size: cover;
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  position: fixed;
+  right: 20px;
+  top: 80vh;
+  border: 0;
+  border-radius: 50%;
+  /* box-shadow: 1px 1px 5px rgba(0, 0, 0, 1); */
+  cursor: pointer;
+  z-index: 100;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  padding: 10px;
+  transition: .5s cubic-bezier(0.13, 0.51, 0, 1.35);
+}
+
+.scrollToTop:focus {
+  outline: none;
+}
+
+.scrollToTop:hover {
+  transform: translateY(-10px);
+}

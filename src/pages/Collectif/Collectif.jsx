@@ -5,7 +5,7 @@ import shadow4 from '../../assets/images/shadow4.png'
 export class Collectif extends Component {
   render() {
     return (
-      <div className='collectif'>
+      <div id='collectif' className='collectif'>
         <img className='collectif__shadow' src={shadow4} alt="shadow4"/>
         <div className="collectif__container">
           <div className='one'>1 collectif</div>

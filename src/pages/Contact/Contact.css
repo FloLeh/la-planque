@@ -22,6 +22,7 @@
 }
 
 .contact__container .email {
+  color: #000;
   z-index: 20;
   font-size: 50px;
   letter-spacing: 5px;
@@ -35,6 +36,7 @@
   font-size: 40px;
   letter-spacing: 4px;
   line-height: 0.5;
+  z-index: 20;
 }
 
 .contact__tel .lisa {
@@ -49,4 +51,18 @@
 
 .contact__tel .tel {
   color: rgb(62, 145, 173);
+}
+
+.smiley {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 40px;
+}
+
+.plante {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 15;
 }
