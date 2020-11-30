@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react'
 import './Menu.css'
 import logo from '../../assets/images/logo_small.png'
@@ -14,7 +13,7 @@ export class Menu extends Component {
               behavior: 'smooth'
           })
       })
-  })
+    })
   }
 
   render() {

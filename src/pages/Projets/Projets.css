@@ -18,3 +18,11 @@
   height: calc(100% - 100px);
   padding: 50px 250px;
 }
+
+.projects__container > a {
+  color: black;
+  font-family: 'SF Movie Poster';
+  letter-spacing: 2px;
+  font-size: 18pt;
+  z-index: 20;
+}

@@ -2,5 +2,6 @@
   border: 2px solid #000;
   background: url('../../assets/images/panda_roux1.webp');
   background-size: cover;
-  z-index: 20;
+  z-index: 30;
+  height: 100%;
 }

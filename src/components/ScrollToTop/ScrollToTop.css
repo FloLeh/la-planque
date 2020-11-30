@@ -7,13 +7,10 @@
   right: 20px;
   top: 80vh;
   border: 0;
-  border-radius: 50%;
-  /* box-shadow: 1px 1px 5px rgba(0, 0, 0, 1); */
   cursor: pointer;
   z-index: 100;
   width: 40px;
   height: 40px;
-  overflow: hidden;
   padding: 10px;
   transition: .5s cubic-bezier(0.13, 0.51, 0, 1.35);
 }
@@ -23,5 +20,5 @@
 }
 
 .scrollToTop:hover {
-  transform: translateY(-10px);
+  transform: translateY(-5px);
 }
