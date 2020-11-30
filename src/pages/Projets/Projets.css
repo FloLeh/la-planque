@@ -20,9 +20,5 @@
 }
 
 .projects__container > a {
-  color: black;
-  font-family: 'SF Movie Poster';
-  letter-spacing: 2px;
-  font-size: 18pt;
   z-index: 20;
 }

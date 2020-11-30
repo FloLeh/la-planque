@@ -16,11 +16,6 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  height: 100vh;
-}
-
-.App, #root {
-  height: 100%;
 }
 
 ul {
@@ -35,10 +30,6 @@ li {
 a {
   text-decoration: none;
 }
-/* 
-.space {
-  margin-bottom: 1000px;
-} */
 
 /* ScrollBar */
 ::-webkit-scrollbar {
