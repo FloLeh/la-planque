@@ -27,9 +27,9 @@ export const SingleProjectPage = ({ match }) => {
 
   return (
     <div className="single-project">
-      <Link className='closing-cross' to='/'>
+      <a className='closing-cross' href='/#projets'>
         X
-      </Link>
+      </a>
       <div className="single-project__left">
         <img className='arrow-prev' src={arrow} alt="previous"/>
         <div className="carousel"></div>

@@ -11,9 +11,14 @@
 .socials {
   position: absolute;
   right: 20px;
+  z-index: 50;
 }
 
-.socials img {
+.socials a {
+  transition: .3s ease;
+}
+
+.socials > a > img {
   width: 18px;
   margin-right: 10px;
 }
@@ -22,6 +27,20 @@
   filter: invert(100%);
 }
 
-.socials a:nth-of-type(2) img {
+.socials__amies {
+  cursor: pointer;
+}
+
+.socials__amies img {
+  margin-right: 10px;
   width: 14px;
+  z-index: 50;
+}
+
+.friends__cross {
+  z-index: 80;
+  position: absolute;
+  right: 40px;
+  cursor: pointer;
+  display: none;
 }

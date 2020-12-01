@@ -1,0 +1,41 @@
+.friends {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'SF Movie Poster';
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 60;
+  left: 100%;
+  transition: .5s ease;
+}
+
+.friends__container {
+  display: flex;
+}
+
+.friends__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  letter-spacing: 5px;
+}
+
+.friends__left > span {
+  font-size: 64px;
+  border-bottom: 1px solid #000;
+  line-height: 0.9;
+}
+
+.friends__right {
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: 2px;
+  border-left: 1px solid #000;
+  padding-left: 15px;
+  margin-left: 15px;
+}
