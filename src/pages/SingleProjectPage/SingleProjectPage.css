@@ -8,13 +8,38 @@
 
 .closing-cross {
   position: absolute;
-  top: 20px;
+  top: 30px;
   right: 40px;
-  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
 }
 
-.closing-cross:focus {
-  color: #000;
+.closing-cross > div {
+  height: 2px;
+  width: 40px;
+  background-color: rgba(0,0,0,0.9);
+  transition: .3s ease;
+}
+
+.closing-cross > div:nth-of-type(1) {
+  transform: rotate(0);
+  margin-bottom: 5px;
+}
+
+.closing-cross > div:nth-of-type(2) {
+  transform: translateY(-1px) rotate(0);
+}
+
+.closing-cross:hover > div:nth-of-type(1) {
+  transform: rotate(45deg);
+  margin-bottom: 0;
+}
+
+.closing-cross:hover > div:nth-of-type(2) {
+  transform: translateY(-1px) rotate(135deg);
 }
 
 .single-project__left {

@@ -2,7 +2,7 @@ import React from 'react'
 import data from '../../projets.json'
 import './SingleProjectPage.css'
 import arrow from '../../assets/images/arrow.png'
-import { Link } from 'react-router-dom'
+import { Link, Redirect } from 'react-router-dom'
 
 export const SingleProjectPage = ({ match }) => {
   const { projectTitle } = match.params
@@ -19,16 +19,15 @@ export const SingleProjectPage = ({ match }) => {
   
   if (!project) {
     return (
-      <section>
-        <h2>Project not found</h2>
-      </section>
+      <Redirect to="/" />
     )
   }
 
   return (
     <div className="single-project">
       <a className='closing-cross' href='/#projets'>
-        X
+        <div></div>
+        <div></div>
       </a>
       <div className="single-project__left">
         <img className='arrow-prev' src={arrow} alt="previous"/>

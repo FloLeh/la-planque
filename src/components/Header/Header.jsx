@@ -50,7 +50,10 @@ export class Header extends Component {
             <img src={linkedin} alt="linkedin"/>
           </a>
         </div>
-        <div className='friends__cross' onClick={() => this.toggleFriends()}>X</div>
+        <div className='friends__cross' onClick={() => this.toggleFriends()}>
+          <div></div>
+          <div></div>
+        </div>
       </div>
     )
   }
