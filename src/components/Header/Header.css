@@ -41,7 +41,7 @@
   position: absolute;
   z-index: 80;
   cursor: pointer;
-  top: 60px;
+  top: 40px;
   right: 50px;
   display: none;
   flex-direction: column;
