@@ -88,11 +88,11 @@
     letter-spacing: 3px;
   }
 
-  .contact__tel .tel {
-    font-weight: bold;
+  .contact__tel p {
+    line-height: 1.4;
   }
 
-  .plante {
-    transform:  translateX(200px) scaleX(2);
+  .contact__tel .tel {
+    font-weight: bold;
   }
 }
