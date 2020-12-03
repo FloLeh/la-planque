@@ -77,10 +77,6 @@ a {
 		max-width: 100%;
 	}
 	
-	img {
-		height: auto;
-	}
-	
   .hide_mobile {
 		display: none !important;
 	}
