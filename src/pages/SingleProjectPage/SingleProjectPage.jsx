@@ -16,6 +16,15 @@ export const SingleProjectPage = ({ match }) => {
       return data.projects[0].title
     }
   }
+
+  const prevProjectTitle = () => {
+    const index = data.projects.findIndex(project => project.title === projectTitle)
+    if (index !== 0) {
+      return data.projects[index - 1].title
+    } else {
+      return data.projects[data.projects.length - 1].title
+    }
+  }
   
   if (!project) {
     return (
@@ -33,6 +42,9 @@ export const SingleProjectPage = ({ match }) => {
         <img className='arrow-prev' src={arrow} alt="previous"/>
         <div className="carousel"></div>
         <img className='arrow-next' src={arrow} alt="next"/>
+        <Link className="single-project__prev" to={`/projets/${prevProjectTitle()}`}>
+          Précédent
+        </Link>
         <Link className="single-project__next" to={`/projets/${nextProjectTitle()}`}>
           Suivant
         </Link>

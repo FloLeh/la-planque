@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react'
 import { Menu, Friends } from '../../components'
 import linkedin from '../../assets/images/linkedin.png'
@@ -40,13 +39,13 @@ export class Header extends Component {
         <Friends/>
         <Menu/>
         <div className='socials'>
-          <a href="">
+          <a href="https://www.instagram.com">
             <img src={instagram} alt="instagram"/>
           </a>
           <span onClick={() => this.toggleFriends()} className='socials__amies'>
             <img src={amies} alt='amies'/>
           </span>
-          <a href="">
+          <a href="https://www.linkedin.com">
             <img src={linkedin} alt="linkedin"/>
           </a>
         </div>

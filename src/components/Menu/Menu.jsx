@@ -18,7 +18,7 @@ export class Menu extends Component {
 
   render() {
     return (
-      <div className='menu'>
+      <div className='menu hide_mobile'>
         <nav>
           <ul>
             <li><a href="#missions">MISSIONS</a><span></span></li>

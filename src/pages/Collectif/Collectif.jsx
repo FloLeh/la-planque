@@ -11,7 +11,7 @@ export class Collectif extends Component {
           <div className='one'>1 collectif</div>
           <div>façonné de 3 professionnelles</div>
           <div>3 domaines s'unissent</div>
-          <div>Architecture.Paysage.Architecture intérieure</div>
+          <div>Architecture . Paysage . Architecture intérieure</div>
           <div>3 fois plus d'expériences</div>
           <div>pour le projet qui vous fait envie</div>
           <div className="collectif__video">

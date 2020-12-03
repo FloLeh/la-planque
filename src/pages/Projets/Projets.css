@@ -22,3 +22,18 @@
 .projects__container > a {
   z-index: 20;
 }
+
+
+/****** Mobile ******/
+
+@media (max-width: 640px) {
+
+  .projects__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    height: calc(100% - 100px);
+    padding: 50px 0px;
+  }
+
+}

@@ -2,7 +2,7 @@
   height: 100vh;
   display: flex;
   flex-direction: row;
-  padding: 0 5vw;
+  padding: 0 3vw;
   font-family: 'Microsoft Yi Baiti';
 }
 
@@ -68,6 +68,13 @@
 }
 
 
+.single-project__prev {
+  position: absolute;
+  bottom: 15vh;
+  right: 89vw;
+  font-size: 22px;
+}
+
 .single-project__next {
   position: absolute;
   bottom: 15vh;
@@ -92,4 +99,94 @@
   text-align: justify;
   width: 50%;
   font-size: 20px;
+}
+
+
+/****** Mobile ******/
+
+@media (max-width: 640px) {
+  .single-project {
+    flex-direction: column-reverse;
+    padding: 0 5vw;
+  }
+
+  @keyframes cross1 {
+    0% {
+      transform: rotate(0deg);
+      margin-bottom: 1px;
+    }
+    100% {
+      transform: rotate(45deg);
+      margin-bottom: 0;
+    }
+  }
+
+  @keyframes cross2 {
+    0% {
+      transform: translateY(0px) rotate(0deg);
+    }
+    100% {
+      transform: translateY(-1px) rotate(135deg);
+    }
+  }
+
+  .closing-cross > div:nth-of-type(1) {
+    animation: cross1 1s ease 1s forwards;
+  }
+  
+  .closing-cross > div:nth-of-type(2) {
+    animation: cross2 1s ease 1s forwards;
+  }
+
+  .single-project__left {
+    flex: 3;
+    justify-content: space-evenly;
+  }
+  
+  .arrow-prev {
+    transform: rotate(270deg);
+    height: 30px;
+  }
+  
+  .carousel {
+    background: url('../../assets/images/panda_roux1.webp');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .arrow-next {
+    transform: rotate(90deg);
+    height: 30px;
+  }
+
+  .single-project__prev {
+    position: absolute;
+    bottom: 5vh;
+    right: 60vw;
+    font-size: 28px;
+  }
+
+  .single-project__next {
+    position: absolute;
+    bottom: 5vh;
+    left: 65vw;
+    font-size: 28px;
+  }
+
+  .single-project__right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15vh;
+  }
+  
+  .project-title {
+    font-size: 40px;
+  }
+  
+  .project-description {
+    width: 90%;
+    font-size: 20px;
+  }
 }

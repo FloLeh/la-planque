@@ -2,9 +2,10 @@ import React, { Component } from 'react'
 import './Contact.css'
 import shadow5 from '../../assets/images/shadow5.png'
 import smiley from '../../assets/images/picto_smiley.png'
-import plant from '../../assets/images/contact_plant.png'
+import plant from '../../assets/images/contact_plant2.png'
 
 export class Contact extends Component {
+
   render() {
     return (
       <div id='contact' className='contact'>

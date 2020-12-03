@@ -52,3 +52,43 @@
   font-size: 20pt;
   font-weight: 600;
 }
+
+
+/****** Mobile ******/
+
+@media (max-width: 640px) {
+
+  .missions {
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .pictos {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 40px 20px 40px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .mission {
+    justify-content: center;
+    align-self: flex-start;
+  }
+
+  .mission:nth-of-type(2n) {
+    align-self: flex-end;
+  }
+
+  .mission img {
+    width: 30vw;
+    margin-bottom: 10px;
+  }
+
+  .mission div {
+    font-size: 30pt;
+    letter-spacing: 4px;
+    max-width: 150px;
+  }
+
+}

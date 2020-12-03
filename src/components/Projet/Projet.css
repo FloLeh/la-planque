@@ -26,3 +26,14 @@
   opacity: 1;
   transform: translateY(0px);
 }
+
+
+/****** Mobile ******/
+
+@media (max-width: 640px) {
+
+  .projet {
+    border: 0;
+  }
+
+}

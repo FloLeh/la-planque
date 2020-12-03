@@ -74,3 +74,24 @@
 .friends__cross:hover > div:nth-of-type(2) {
   transform: translateY(-1px) rotate(135deg);
 }
+
+
+/****** Mobile ******/
+
+@media (max-width: 640px) {
+
+  .header {
+    height: 60px;
+    max-width: 100%;
+  }
+
+  .socials > a > img {
+    width: 28px;
+    margin-right: 26px;
+  }
+
+  .socials__amies img {
+    margin-right: 26px;
+    width: 22px;
+  }
+}
