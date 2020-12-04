@@ -28,12 +28,34 @@
 .collectif__container div:nth-of-type(1) {
   font-size: 40pt;
   font-weight: 200;
-  text-decoration: underline;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.collectif__container div:nth-of-type(1)::after {
+  content: '';
+  position: absolute;
+  top: 60px;
+  width: 120px;
+  border-bottom: 1px solid #000;
 }
 
 .collectif__container div:nth-of-type(2) {
   font-size: 30pt;
   font-weight: bold;
+}
+
+.cedille {
+  position: relative;
+}
+
+.cedille::after {
+  content: "`";
+  position: absolute;
+  top: 18px;
+  left: -15px;
+  transform: rotate(90deg);
 }
 
 .collectif__container div:nth-of-type(3) {

@@ -8,8 +8,8 @@ export class Collectif extends Component {
       <div id='collectif' className='collectif'>
         <img className='collectif__shadow' src={shadow4} alt="shadow4"/>
         <div className="collectif__container">
-          <div className='one'>1 collectif</div>
-          <div>façonné de 3 professionnelles</div>
+          <div>1 collectif</div>
+          <div>fa<span className='cedille'>c</span>onné de 3 professionnelles</div>
           <div>3 domaines s'unissent</div>
           <div>Architecture . Paysage . Architecture intérieure</div>
           <div>3 fois plus d'expériences</div>

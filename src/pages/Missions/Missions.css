@@ -22,6 +22,7 @@
   text-align: center;
   justify-content: space-between;
   z-index: 40;
+  min-height: 280px;
 }
 
 .mission__shadow {
@@ -73,6 +74,7 @@
   .mission {
     justify-content: center;
     align-self: flex-start;
+    min-height: none;
   }
 
   .mission:nth-of-type(2n) {
