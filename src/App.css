@@ -58,7 +58,7 @@ a {
 	}
 	
 	body {
-    min-height: -webkit-fill-available;
+    height: calc(100vh - calc(100vh - 100%));
 		max-width: auto;
 		margin: 0;
     padding: 0;
