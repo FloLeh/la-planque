@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './Home.css'
-import logo_big_catch from '../../assets/images/logo_big_catch.png'
+import catch_phrase from '../../assets/images/catch.png'
+import logo_big_empty from '../../assets/images/logo_big_nocatch_nola.png'
+import la_big from '../../assets/images/LA_big.png'
 import shadow1 from '../../assets/images/shadow1.png'
 
 export class Home extends Component {
@@ -8,7 +10,9 @@ export class Home extends Component {
     return (
       <div className='home'>
         <img className='home__shadow' src={shadow1} alt="shadow"/>
-        <img className='home__logo' src={logo_big_catch} alt="la planque"/>
+        <img className='home__logo' src={logo_big_empty} alt="planque"/>
+        <img className='home__la' src={la_big} alt="la"/>
+        <img className='home__catch' src={catch_phrase} alt="catch"/>
       </div>
     )
   }

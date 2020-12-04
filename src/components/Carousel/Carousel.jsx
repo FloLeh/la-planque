@@ -9,7 +9,6 @@ const flickityOptions = {
 
 export default function Carousel() {
   return (
-    
     <div className='carousel'>
       <Flickity options={flickityOptions}>
         <img src="https://loremflickr.com/800/480" alt='' />

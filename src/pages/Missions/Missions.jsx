@@ -14,23 +14,23 @@ export class Missions extends Component {
         <img className='mission__shadow' src={shadow2} alt="shadow2"/>
         <div className="pictos">
           <div className="mission">
-            <img src={paysage} alt="paysage"/>
+            <img src={paysage} alt="paysage" data-aos-duration='800' data-aos='fade-up' data-aos-anchor-placement="top-center" data-aos-offset='-150' data-aos-delay='100'/>
             <div>PAYSAGE <br/> </div>
           </div>
           <div className="mission">
-            <img src={dossier} alt="paysage"/>
+            <img src={dossier} alt="dossier" data-aos-duration='800' data-aos='fade-up' data-aos-anchor-placement="top-center" data-aos-offset='-150' data-aos-delay='200'/>
             <div>DÉMARCHES ADMINISTRATIVES</div>
           </div>
           <div className="mission">
-            <img src={archi} alt="paysage"/>
+            <img src={archi} alt="archi" data-aos-duration='800' data-aos='fade-up' data-aos-anchor-placement="top-center" data-aos-offset='-150' data-aos-delay='300'/>
             <div>ARCHITECTURE <br/> </div>
           </div>
           <div className="mission">
-            <img src={mobilier} alt="paysage"/>
+            <img src={mobilier} alt="mobilier" data-aos-duration='800' data-aos='fade-up' data-aos-anchor-placement="top-center" data-aos-offset='-150' data-aos-delay='400'/>
             <div>MOBILIER SUR MESURE</div>
           </div>
           <div className="mission">
-            <img src={visuel} alt="paysage"/>
+            <img src={visuel} alt="visuel" data-aos-duration='800' data-aos='fade-up' data-aos-anchor-placement="top-center" data-aos-offset='-150' data-aos-delay='500'/>
             <div>VISUELS 3D</div>
           </div>
         </div>
