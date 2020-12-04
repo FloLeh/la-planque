@@ -56,10 +56,48 @@
 .smiley {
   z-index: 50;
   position: absolute;
-  right: 20px;
+  right: 25px;
   bottom: 20px;
-  width: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   transition: .5s ease;
+}
+
+.smiley .yeux {
+  width: 20px;
+  transition: .5s ease;
+  margin-bottom: 5px;
+  clip-path: polygon(31% 0, 51% 0, 100% 0, 100% 100%, 0 100%, 0 0);
+  animation: yeux 10s ease infinite ;
+}
+
+.smiley .bouche {
+  width: 35px;
+  clip-path: polygon(0 0, 100% 0, 0 0, 0% 100%);
+  transition: 5s ease;
+  animation: bouche 8s ease infinite;
+}
+
+@keyframes yeux {
+  0%, 13%, 100% {
+    clip-path: polygon(31% 0, 51% 0, 100% 0, 100% 100%, 0 100%, 0 0);
+  }
+  5%, 10% {
+    clip-path: polygon(50% 35%, 51% 0, 100% 0, 100% 100%, 0 100%, 0 60%);
+  }
+}
+
+@keyframes bouche {
+  0% {
+    clip-path: polygon(0 0, 100% 0, 0 0, 0% 100%);
+  }
+  10% {
+    clip-path: polygon(0 0, 100% 0, 0 100%, 0% 100%);
+  }
+  25%, 100% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
 }
 
 .plante {

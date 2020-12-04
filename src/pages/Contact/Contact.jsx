@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import './Contact.css'
 import shadow5 from '../../assets/images/shadow5.png'
-import smiley from '../../assets/images/picto_smiley.png'
+import yeux_smiley from '../../assets/images/picto_smiley_sans_bouche.png'
+import bouche_smiley from '../../assets/images/picto_smiley_sans_yeux.png'
 import plant from '../../assets/images/contact_plant2.png'
 
 export class Contact extends Component {
@@ -26,7 +27,10 @@ export class Contact extends Component {
             </div>
           </div>
           <img className='plante' src={plant} alt="plante"/>
-          <img className='smiley' src={smiley} alt="smiley"/>
+          <div className="smiley">
+            <img className='yeux' src={yeux_smiley} alt="smiley yeux"/>
+            <img className='bouche' src={bouche_smiley} alt="smiley bouche"/>
+          </div>
         </div>
       </div>
     )
