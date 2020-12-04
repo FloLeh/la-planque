@@ -49,24 +49,15 @@
   align-items: center;
 }
 
-.arrow-prev {
+/* .arrow-prev {
   transform: rotate(270deg);
   height: 40px;
-}
-
-.carousel {
-  background: url('../../assets/images/panda_roux1.webp');
-  background-position: center;
-  background-size: cover;
-  width: 70%;
-  height: 70%;
 }
 
 .arrow-next {
   transform: rotate(90deg);
   height: 40px;
-}
-
+} */
 
 .single-project__prev {
   position: absolute;
@@ -107,7 +98,8 @@
 @media (max-width: 640px) {
   .single-project {
     flex-direction: column-reverse;
-    padding: 0 5vw;
+    padding: 100px 5vw;
+    justify-content: space-evenly;
   }
 
   @keyframes cross1 {
@@ -139,25 +131,19 @@
   }
 
   .single-project__left {
-    flex: 2.5;
+    flex: none;
     justify-content: space-evenly;
   }
   
-  .arrow-prev {
+  /* .arrow-prev {
     transform: rotate(270deg);
     height: 30px;
-  }
-  
-  .carousel {
-    background: url('../../assets/images/panda_roux1.webp');
-    background-position: center;
-    background-size: cover;
   }
   
   .arrow-next {
     transform: rotate(90deg);
     height: 30px;
-  }
+  } */
 
   .single-project__prev {
     position: absolute;
@@ -174,7 +160,7 @@
   }
 
   .single-project__right {
-    flex: 1;
+    flex: none;
     display: flex;
     flex-direction: column;
     align-items: center;

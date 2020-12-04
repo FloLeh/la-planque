@@ -44,6 +44,7 @@
 .collectif__container div:nth-of-type(4) {
   font-size: 33pt;
   font-weight: bold;
+  line-height: 1.6;
 }
 
 .collectif__container div:nth-of-type(5) {
