@@ -58,6 +58,7 @@ a {
 	}
 	
 	body {
+    min-height: -webkit-fill-available;
 		max-width: auto;
 		margin: 0;
     padding: 0;
