@@ -27,6 +27,9 @@
 /****** Mobile ******/
 
 @media (max-width: 640px) {
+  .projets {
+    height: calc(100vh - 60px);
+  }
 
   .projects__container {
     display: grid;

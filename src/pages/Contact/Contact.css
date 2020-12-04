@@ -114,6 +114,11 @@
 @media (max-width: 640px) {
   .contact {
     overflow: hidden;
+    height: calc(100vh - 60px);
+  }
+
+  .contact__shadow {
+    height: calc(100vh - 60px);
   }
 
   .contact__container .email {
@@ -137,5 +142,6 @@
   
   .plante {
     width: 45%;
+    height: auto;
   }
 }

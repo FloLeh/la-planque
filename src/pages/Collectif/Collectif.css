@@ -21,6 +21,7 @@
 
 .collectif__container div {
   letter-spacing: 2px;
+  margin-bottom: 10px;
   display: block;
 }
 
@@ -68,9 +69,15 @@
 /****** Mobile ******/
 
 @media (max-width: 640px) {
+  .collectif {
+    height: calc(100vh - 60px);
+  }
+
+  .collectif__shadow {
+    height: calc(100vh - 60px);
+  }
 
   .collectif__container div:nth-of-type(7) {
     width: 80%;
   }
-
 }

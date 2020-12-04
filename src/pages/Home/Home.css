@@ -19,3 +19,14 @@
   transform: translateY(40px);
   filter: drop-shadow(1px 4px 2px rgba(0,0,0,0.4));
 }
+
+@media (max-width: 640px) {
+  .home {
+    height: calc(100vh - 60px);
+  }
+
+  .home__shadow {
+    height: calc(100vh - 60px);
+  }
+
+}
