@@ -3,7 +3,7 @@ import './Contact.css'
 import shadow5 from '../../assets/images/shadow5.png'
 import yeux_smiley from '../../assets/images/picto_smiley_sans_bouche.png'
 import bouche_smiley from '../../assets/images/picto_smiley_sans_yeux.png'
-import plant from '../../assets/images/contact_plant2.png'
+import plant from '../../assets/images/contact_plant3.png'
 
 export class Contact extends Component {
 
