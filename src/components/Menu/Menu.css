@@ -1,5 +1,7 @@
 .menu {
   z-index: 10;
+  position: fixed;
+  top: 0;
 }
 
 .menu ul {
@@ -10,7 +12,7 @@
 }
 
 .menu li {
-  margin-right: 35px;
+  margin: 0 16px;
   font-family: 'SF Movie Poster';
   font-size: 24pt;
   line-height: 21.6pt;
@@ -36,7 +38,7 @@
 } 
 
 .menu__logo {
-  width: 200px;
+  width: 150px;
 }
 
 /****** Mobile ******/

@@ -1,5 +1,5 @@
 import './App.css'
-import { Header, ScrollToTop } from './components'
+import { Header } from './components'
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
 import React, { Component } from 'react'
 import { Missions, Home, Projets, Collectif, Contact, SingleProjectPage } from './pages'
@@ -18,7 +18,6 @@ class App extends Component {
           <Switch>
             <Route path='/' exact render={() => (
               <React.Fragment>
-                <ScrollToTop/>
                 <Header/>
                 <Home/>
                 <Missions/>

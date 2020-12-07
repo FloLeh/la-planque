@@ -8,7 +8,7 @@ import shadow1 from '../../assets/images/shadow1.png'
 export class Home extends Component {
   render() {
     return (
-      <div className='home'>
+      <div id='home' className='home'>
         <img className='home__shadow' src={shadow1} alt="shadow"/>
         <img className='home__logo' src={logo_big_empty} alt="planque"/>
         <img className='home__la' src={la_big} alt="la"/>
