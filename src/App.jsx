@@ -5,6 +5,7 @@ import React, { Component } from 'react'
 import { Missions, Home, Projets, Collectif, Contact, SingleProjectPage } from './pages'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import { FixedBackground } from './components'
 
 class App extends Component {
   componentDidMount() {
@@ -14,6 +15,7 @@ class App extends Component {
   render () {
     return (
       <div className="App">
+        <FixedBackground/>
         <Router>
           <Switch>
             <Route path='/' exact render={() => (
