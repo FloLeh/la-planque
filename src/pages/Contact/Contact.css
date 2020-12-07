@@ -74,7 +74,8 @@
 
 .smiley .bouche {
   width: 35px;
-  clip-path: polygon(0 0, 100% 0, 50% 0, 50% 100%, 50% 100%, 50% 0);
+  /* clip-path: polygon(0 0, 100% 0, 50% 0, 50% 100%, 50% 100%, 50% 0); */
+  clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
   animation: bouche 5s ease infinite;
 }
 
@@ -83,18 +84,31 @@
     clip-path: polygon(31% 0, 51% 0, 100% 0, 100% 100%, 0 100%, 0 0);
   }
   5%, 10% {
-    clip-path: polygon(50% 35%, 51% 0, 100% 0, 100% 100%, 0 100%, 0 60%);
+    clip-path: polygon(80% 95%, 51% 0, 100% 0, 100% 100%, 0 100%, 0 80%);
   }
 }
 
-@keyframes bouche {
+/* from middle*/
+/* @keyframes bouche {
   0% {
     clip-path: polygon(0 0, 100% 0, 50% 0, 50% 100%, 50% 100%, 50% 0);
   }
   15%, 100% {
     clip-path: polygon(0 0, 100% 0, 100% 0, 100% 100%, 0% 100%, 0% 0);
   }
+} */
+
+/*From left*/
+@keyframes bouche {
+  0% {
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  }
+  15%, 100% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
 }
+
+
 
 .plante {
   position: absolute;

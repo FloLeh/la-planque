@@ -9,18 +9,16 @@ export class Home extends Component {
 
   refreshAnims() {
     window.onscroll = () => {
-      if (window.scrollY > window.innerHeight) {
-        document.querySelector('.home__la').classList.remove('la-animation')
-        document.querySelector('.home__catch').classList.remove('catch-animation')
-      } else {
-        document.querySelector('.home__la').classList.add('la-animation')
-        document.querySelector('.home__catch').classList.add('catch-animation')
+      if (window.location.pathname === '/') {
+        if (window.scrollY > window.innerHeight) {
+          document.querySelector('.home__la').classList.remove('la-animation')
+          document.querySelector('.home__catch').classList.remove('catch-animation')
+        } else {
+          document.querySelector('.home__la').classList.add('la-animation')
+          document.querySelector('.home__catch').classList.add('catch-animation')
+        }
       }
     }
-  }
-
-  componentDidMount() {
-    this.refreshAnims()
   }
   
   render() {
@@ -30,6 +28,7 @@ export class Home extends Component {
         <img className='home__logo' src={logo_big_empty} alt="planque"/>
         <img className='home__la la-animation' src={la_big} alt="la"/>
         <img className='home__catch catch-animation' src={catch_phrase} alt="catch"/>
+        {this.refreshAnims()}
       </div>
     )
   }

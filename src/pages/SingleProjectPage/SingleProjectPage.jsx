@@ -1,9 +1,9 @@
 import React from 'react'
 import data from '../../projets.json'
 import './SingleProjectPage.css'
-// import arrow from '../../assets/images/arrow.png'
-import { Link, Redirect } from 'react-router-dom'
+import { Link, Redirect, withRouter } from 'react-router-dom'
 import { Carousel } from '../../components'
+
 
 export const SingleProjectPage = ({ match }) => {
   const { projectTitle } = match.params
@@ -59,4 +59,4 @@ export const SingleProjectPage = ({ match }) => {
   )
 }
 
-export default SingleProjectPage
+export default withRouter(SingleProjectPage)
