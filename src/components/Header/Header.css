@@ -1,8 +1,14 @@
 .header {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: absolute;
   top: 0;
   z-index: 100;
@@ -17,6 +23,8 @@
 }
 
 .socials a {
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
   transition: .3s ease;
 }
 
@@ -27,7 +35,8 @@
 }
 
 .socials a:nth-of-type(1) img {
-  filter: invert(100%);
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
 }
 
 .socials__amies {
@@ -48,8 +57,13 @@
   top: 40px;
   right: 50px;
   display: none;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 40px;
   width: 40px;
 }
@@ -58,25 +72,35 @@
   height: 2px;
   width: 40px;
   background-color: rgba(0,0,0,0.9);
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
   transition: .3s ease;
 }
 
 .friends__cross > div:nth-of-type(1) {
-  transform: rotate(0);
+  -webkit-transform: rotate(0);
+      -ms-transform: rotate(0);
+          transform: rotate(0);
   margin-bottom: 5px;
 }
 
 .friends__cross > div:nth-of-type(2) {
-  transform: translateY(-1px) rotate(0);
+  -webkit-transform: translateY(-1px) rotate(0);
+      -ms-transform: translateY(-1px) rotate(0);
+          transform: translateY(-1px) rotate(0);
 }
 
 .friends__cross:hover > div:nth-of-type(1) {
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
   margin-bottom: 0;
 }
 
 .friends__cross:hover > div:nth-of-type(2) {
-  transform: translateY(-1px) rotate(135deg);
+  -webkit-transform: translateY(-1px) rotate(135deg);
+      -ms-transform: translateY(-1px) rotate(135deg);
+          transform: translateY(-1px) rotate(135deg);
 }
 
 
@@ -90,8 +114,13 @@
   }
 
   .socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 
   .socials > a > img {
