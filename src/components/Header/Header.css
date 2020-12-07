@@ -88,13 +88,21 @@
     max-width: 100%;
   }
 
+  .socials {
+    display: flex;
+    flex-direction: column;
+  }
+
   .socials > a > img {
-    width: 28px;
+    width: 22px;
+    height: 20px;
     margin-right: 26px;
   }
 
   .socials__amies img {
-    margin-right: 26px;
+    margin-right: 0px;
+    margin: 10px 0;
     width: 22px;
+    height: 24px;
   }
 }

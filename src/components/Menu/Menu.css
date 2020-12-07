@@ -39,6 +39,7 @@
 
 .menu__logo {
   width: 150px;
+  image-rendering: optimizeQuality;
 }
 
 /****** Mobile ******/

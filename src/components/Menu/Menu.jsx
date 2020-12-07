@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import './Menu.css'
 import logo from '../../assets/images/logo_small.png'
-import $ from 'jquery'
 
 export class Menu extends Component {
   componentDidMount() {
@@ -16,24 +15,18 @@ export class Menu extends Component {
     })
   }
 
-  toTop() {
-		$('html, body').animate(
-			{ scrollTop: '0' }, 600
-		)
-	}
-
   render() {
     return (
       <div className='menu hide_mobile'>
         <nav>
           <ul>
-            <li><a href="#missions">MISSIONS</a><span></span></li>
-            <li><a href="#projets">PROJETS</a><span></span></li>
+            <li><span></span><a href="#missions">MISSIONS</a></li>
+            <li><span></span><a href="#projets">PROJETS</a></li>
             <li><a href="#home">
              <img className='menu__logo' src={logo} alt='logo'></img>
             </a></li>
-            <li><a href="#collectif">COLLECTIF</a><span></span></li>
-            <li><a href="#contact">SE RENCONTRER</a><span></span></li>
+            <li><span></span><a href="#collectif">COLLECTIF</a></li>
+            <li><span></span><a href="#contact">SE RENCONTRER</a></li>
           </ul>
         </nav>
       </div>

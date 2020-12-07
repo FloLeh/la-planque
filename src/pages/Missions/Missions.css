@@ -15,34 +15,12 @@
   padding: 60px 0;
 }
 
-.mission {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  justify-content: space-between;
-  z-index: 40;
-  min-height: 280px;
-}
 
 .mission__shadow {
   position: absolute;
   width: 100%;
   height: 100%;
   z-index: 10;
-}
-
-.mission img {
-  width: 8vw;
-  /* filter: drop-shadow(1px 3px 1px rgba(0,0,0,0.3)); */
-}
-
-.mission div {
-  font-family: 'SF Movie Poster';
-  font-size: 40pt;
-  letter-spacing: 4px;
-  width: 99%;
-  line-height: 0.9;
 }
 
 .mission__bottom {
@@ -68,28 +46,11 @@
     width: 100%;
     padding: 0 40px 20px 40px;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
   }
 
-  .mission {
-    justify-content: center;
-    align-self: flex-start;
-    min-height: none;
-  }
-
-  .mission:nth-of-type(2n) {
-    align-self: flex-end;
-  }
-
-  .mission img {
-    width: 30vw;
-    margin-bottom: 10px;
-  }
-
-  .mission div {
-    font-size: 30pt;
-    letter-spacing: 4px;
-    max-width: 150px;
+  .mission__bottom {
+    padding: 0 30px;
   }
 
 }
