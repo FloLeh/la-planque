@@ -111,6 +111,7 @@
   .header {
     height: 60px;
     max-width: 100%;
+    position: absolute;
   }
 
   .socials {
@@ -121,6 +122,8 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    right: 10px;
+    top: 20px;
   }
 
   .socials > a > img {
