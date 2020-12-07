@@ -24,8 +24,11 @@
   width: 600px;
   position: absolute;
   transform: translateY(40px);
-  animation: la 1.5s 1.5s ease forwards;
   opacity: 0;
+}
+
+.la-animation {
+  animation: la 2s 1.5s ease forwards;
 }
 
 .home__catch {
@@ -33,27 +36,28 @@
   position: absolute;
   transform: translateY(40px);
   opacity: 0;
+}
+
+.catch-animation {
   animation: catch 1.5s 1.5s ease forwards;
 }
 
 @keyframes la {
   0% {
-    transform: translateY(-200px);
     opacity: 0;
   }
   100% {
-    transform: translateY(40px);
     opacity: 1;
   }
 }
 
 @keyframes catch {
   0% {
-    transform: translateY(40px) translateX(200px);
+    transform: translateY(-20px);
     opacity: 0;
   }
   100% {
-    transform: translateY(40px) translateX(00px);
+    transform: translateY(40px);
     opacity: 1;
   }
 }
