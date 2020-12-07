@@ -20,6 +20,7 @@ class App extends Component {
           <Switch>
             <Route path='/' exact render={() => (
               <React.Fragment>
+                <div className="header-bg"></div>
                 <Header/>
                 <Home/>
                 <Missions/>
