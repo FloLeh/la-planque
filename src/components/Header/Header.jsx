@@ -16,7 +16,6 @@ export class Header extends Component {
 
   toggleFriends() {
     if (!this.state.friends) {
-      document.querySelector('html').scrollTop = 0
       document.querySelector('.friends').style.left = '0%'
       document.querySelector('body').style.overflowY = 'hidden'
       document.querySelector('.friends__cross').style.display = 'flex'

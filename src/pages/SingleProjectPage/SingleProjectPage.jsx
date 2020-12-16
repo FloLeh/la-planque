@@ -3,6 +3,7 @@ import data from '../../projets.json'
 import './SingleProjectPage.css'
 import { Link, Redirect, withRouter } from 'react-router-dom'
 import { Carousel } from '../../components'
+import next_arrow from '../../assets/images/arrow_project.png'
 
 export const SingleProjectPage = ({ match }) => {
   const { projectTitle } = match.params
@@ -38,7 +39,7 @@ export const SingleProjectPage = ({ match }) => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut autem doloremque odio minima nihil veritatis qui incidunt? Cum aliquam suscipit architecto placeat voluptatum ad vel laudantium nisi, quasi maiores tempora!
         </div>
         <Link className="single-project__next" to={`/projets/${nextProjectTitle()}`}>
-          Suivant
+          <img src={next_arrow} alt="next"/>
         </Link>
       </div>
     </div>

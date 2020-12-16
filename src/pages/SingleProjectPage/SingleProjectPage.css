@@ -96,6 +96,15 @@
   font-size: 22px;
 }
 
+
+.single-project__next > img {
+  width: 80px;
+}
+
+.single-project__next:hover > img {
+  opacity: 0.9;
+}
+
 .single-project__right {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -230,6 +239,10 @@
             justify-content: flex-end;
     padding-top: 0;
   }
+
+  /* .single-project__right > img {
+    width: 24px;
+  } */
   
   .project-title {
     font-size: 40px;
