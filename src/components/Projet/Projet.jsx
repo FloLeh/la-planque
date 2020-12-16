@@ -1,16 +1,13 @@
-import React, { Component } from 'react'
 import './Projet.css'
 
-export class Projet extends Component {
-  render() {
-    return (
-      <div className='projet'>
-        <div className="projet__bottom">
-          {this.props.title}
-        </div>
+const Projet = (props) => {
+  return (
+    <div className='projet' style={{backgroundImage: `url(${props.background})`}}>
+      <div className="projet__bottom">
+        {props.title}
       </div>
-    )
-  }
+    </div>
+  )
 }
 
 export default Projet

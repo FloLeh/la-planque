@@ -1,6 +1,6 @@
 .collectif {
   background: #fff;
-  height: 100vh;
+  height: calc(100vh - 100px);
   -webkit-box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
           box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
 }
@@ -58,7 +58,7 @@
 .cedille::after {
   content: "`";
   position: absolute;
-  top: 18px;
+  top: 40%;
   left: -15px;
   -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
@@ -106,14 +106,16 @@
 
 @media (max-width: 640px) {
   .collectif {
-    height: calc(100vh - 60px);
+    height: auto;
+    position: relative;
   }
 
   .collectif__shadow {
-    height: calc(100vh - 60px);
+    height: 100%;
   }
 
   .collectif__container div:nth-of-type(7) {
     width: 80%;
+    height: 20vh;
   }
 }

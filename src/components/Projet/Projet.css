@@ -1,6 +1,5 @@
 .projet {
   border: 2px solid #000;
-  background: url('../../assets/images/panda_roux1.webp');
   background-size: cover;
   z-index: 30;
   height: 100%;
@@ -49,4 +48,11 @@
     border: 0;
   }
 
+  .projet__bottom {
+    font-size: 10pt;
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+            transform: translateY(0px);
+  }
 }

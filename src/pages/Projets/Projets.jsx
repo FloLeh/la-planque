@@ -8,7 +8,7 @@ import data from '../../projets.json'
 export const Projets = () => {
   const renderProjects = data.projects.map(project => (
     <Link key={project.title} to={`/projets/${project.title}`}>
-      <Projet title={project.title} />
+      <Projet title={project.title} background={project.images[0]} />
     </Link>
   ))
 

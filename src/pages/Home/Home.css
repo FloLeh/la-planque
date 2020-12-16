@@ -39,8 +39,8 @@
 }
 
 .la-animation {
-  -webkit-animation: la 2s 1s ease forwards;
-          animation: la 2s 1s ease forwards;
+  -webkit-animation: la 2s 0.5s ease forwards;
+          animation: la 2s 0.5s ease forwards;
 }
 
 .home__catch {
@@ -53,8 +53,8 @@
 }
 
 .catch-animation {
-  -webkit-animation: catch 1.5s 1s cubic-bezier(0, -0.4, 0.42, 0.68) forwards;
-          animation: catch 1.5s 1s cubic-bezier(0, -0.4, 0.42, 0.68) forwards;
+  -webkit-animation: catch 1.5s 0.5s cubic-bezier(0, -0.4, 0.42, 0.68) forwards;
+          animation: catch 1.5s 0.5s cubic-bezier(0, -0.4, 0.42, 0.68) forwards;
 }
 
 @-webkit-keyframes la {

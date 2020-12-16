@@ -33,9 +33,11 @@
 .contact__container .email {
   color: #000;
   z-index: 20;
-  font-size: 50px;
+  font-size: 60px;
   letter-spacing: 5px;
+  line-height: 0.9;
   border-bottom: 1px solid #000;
+  margin-bottom: 20vh;
 }
 
 .contact__tel {
@@ -46,10 +48,17 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 40px;
   letter-spacing: 4px;
-  line-height: 0.5;
+  line-height: 1.1;
   z-index: 20;
+}
+
+.contact__tel p {
+  margin: 0;
 }
 
 .contact__tel .lisa {
@@ -57,13 +66,20 @@
 }
 
 .contact__tel .sep {
-  height: 100%;
-  border: 1px solid #000;
-  margin: 0 20px;
+  height: 92%;
+  border-right: 1px solid #000;
+  margin: 0 20px 0 19px;
 }
 
 .contact__tel .tel {
   color: rgb(62, 145, 173);
+}
+
+.signature {
+  position: absolute;
+  bottom: 10px;
+  font-size: 22px;
+  letter-spacing: 1.8px;
 }
 
 .smiley {
@@ -87,15 +103,8 @@
 }
 
 .smiley .yeux {
-  width: 20px;
-  -webkit-transition: .5s ease;
-  -o-transition: .5s ease;
-  transition: .5s ease;
+  width: 15px;
   margin-bottom: 5px;
-  -webkit-clip-path: polygon(31% 0, 51% 0, 100% 0, 100% 100%, 0 100%, 0 0);
-          clip-path: polygon(31% 0, 51% 0, 100% 0, 100% 100%, 0 100%, 0 0);
-  -webkit-animation: yeux 5s ease infinite ;
-          animation: yeux 5s ease infinite ;
 }
 
 .smiley .bouche {
@@ -106,15 +115,6 @@
   -webkit-animation: bouche 5s ease infinite;
           animation: bouche 5s ease infinite;
 }
-
-/* @keyframes yeux {
-  0%, 13%, 100% {
-    clip-path: polygon(31% 0, 51% 0, 100% 0, 100% 100%, 0 100%, 0 0);
-  }
-  5%, 10% {
-    clip-path: polygon(80% 95%, 51% 0, 100% 0, 100% 100%, 0 100%, 0 80%);
-  }
-} */
 
 /* from middle*/
 /* @keyframes bouche {
@@ -148,14 +148,12 @@
   }
 }
 
-
-
 .plante {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 25%;
-  z-index: 60;
+  z-index: 30;
   image-rendering: optimizeSpeed;
 }
 
@@ -171,15 +169,21 @@
     height: calc(100vh - 60px);
   }
 
+  .contact__container {
+    justify-content: flex-start;
+    padding-top: 12vh;
+  }
+
   .contact__container .email {
-    font-size: 40px;
+    font-size: 36px;
     letter-spacing: 4px;
-    text-decoration: underline;
+    margin-bottom: 6vh;
   }
 
   .contact__tel {
     font-size: 30px;
-    letter-spacing: 3px;
+    letter-spacing: 2.5px;
+    z-index: 40;
   }
 
   .contact__tel p {
@@ -189,9 +193,21 @@
   .contact__tel .tel {
     font-weight: bold;
   }
+
+  .signature {
+    font-size: 18px;
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+    right: 10px;
+  }
+
+  .smiley {
+    bottom: 60px;
+  }
   
   .plante {
-    width: 45%;
-    height: auto;
+    width: auto;
+    max-height: 40vh;
   }
 }
