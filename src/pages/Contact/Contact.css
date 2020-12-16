@@ -67,6 +67,7 @@
 
 .contact__tel .sep {
   height: 92%;
+  width: 1px;
   border-right: 1px solid #000;
   margin: 0 20px 0 19px;
 }
