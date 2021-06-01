@@ -1,13 +1,43 @@
 {
-  "projects":
-    [
-      {"title": "Projet1", "content": "This is projet 1", "images":["https://nsa40.casimages.com/img/2020/12/16/20121608525297249.jpg"]},
-      {"title": "Projet2", "content": "This is projet 2", "images":["https://nsa40.casimages.com/img/2020/12/16/201216085252247784.jpg"]},
-      {"title": "Projet3", "content": "This is projet 3", "images":["https://nsa40.casimages.com/img/2020/12/16/201216085252502085.jpg"]},
-      {"title": "Projet4", "content": "This is projet 4", "images":["https://nsa40.casimages.com/img/2020/12/16/201216085252751855.jpg"]},
-      {"title": "Projet5", "content": "This is projet 5", "images":["https://nsa40.casimages.com/img/2020/12/16/20121608525310670.jpg"]},
-      {"title": "Projet6", "content": "This is projet 6", "images":["https://nsa40.casimages.com/img/2020/12/16/201216085253265688.jpg"]},
-      {"title": "Projet7", "content": "This is projet 7", "images":["https://nsa40.casimages.com/img/2020/12/16/201216085253519811.jpg"]},
-      {"title": "Projet8", "content": "This is projet 8", "images":["https://nsa40.casimages.com/img/2020/12/16/201216085253772483.jpg"]}
-    ]
+  "covers": [
+    {"title": "PAYSAGE", "imageUrl": "../../assets/images/En_couverture/Couverture_paysage.jpg"},
+    {"title": "ARCHITECTURE", "imageUrl": "This is projet 2"},
+    {"title": "MOBILIER", "imageUrl": "This is projet 3"},
+    {"title": "VISUELS 3D", "imageUrl": "This is projet 4"}
+  ],
+  "projects": {
+    "architecture": 
+      [
+        {"title": "Rénovation & aménagement d'une maison sur 3 niveaux", "content": "lorem"},
+        {"title": "Aménagement d'un hall d'accueil pour une association", "content": "lorem"},
+        {"title": "Aménagement d'un ancien pressoir en habitation", "content": "lorem"},
+        {"title": "Aménagement intérieur d'une maison Rochelaise", "content": "lorem"}
+      ],
+    "mobilier":
+      [
+        {"title": "Mobilier chambre d'enfant sous pente 1", "content": "lorem"},
+        {"title": "Mobilier chambre d'enfant sous pente 2", "content": "lorem"},
+        {"title": "Mobilier chambre enfant sous combles", "content": "lorem"},
+        {"title": "Mobilier chambre d'enfant sous pente 3", "content": "lorem"},
+        {"title": "Mobilier chambre", "content": "lorem"},
+        {"title": "Mobilier espace de travail", "content": "lorem"},
+        {"title": "Mobilier salle d'eau", "content": "lorem"},
+        {"title": "Mobilier vestiaire", "content": "lorem"}
+      ],
+    "paysage": 
+      [
+        {"title": "Projet d'aménagement paysager - Placette", "content": "lorem"},
+        {"title": "Projet d'aménagement paysager - Aire de jeux", "content": "lorem"},
+        {"title": "Projet d'aménagement d'un jardin privée - planche d'ambiance", "content": "lorem"}
+      ],
+    "visuels_3d": 
+      [
+        {"title": "Complexe hôtelier", "content": "lorem"},
+        {"title": "Lycée expérimental - Espaces communs", "content": "lorem"},
+        {"title": "Réception d'un ERP", "content": "lorem"},
+        {"title": "Espace aquatique d'un camping", "content": "lorem"},
+        {"title": "Bâtiment d'entreprise", "content": "lorem"},
+        {"title": "Constructeur - Bâtiment existant transformé en 4 logements indépendants", "content": "lorem"}
+      ]
+  }
 }

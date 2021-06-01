@@ -6,9 +6,29 @@ import { Link } from 'react-router-dom'
 import data from '../../projets.json'
 
 export const Projets = () => {
-  const renderProjects = data.projects.map(project => (
-    <Link key={project.title} to={`/projets/${project.title}`}>
-      <Projet title={project.title} background={project.images[0]} />
+
+  const getUrl = (title) => {
+    switch (title) {
+      case 'ARCHITECTURE':
+        return `/projets/architecture/${data.projects.architecture[0].title.split(' ').join('_')}`
+    
+      case 'MOBILIER':
+        return `/projets/mobilier/${data.projects.mobilier[0].title.split(' ').join('_')}`
+    
+      case 'PAYSAGE':
+        return `/projets/paysage/${data.projects.paysage[0].title.split(' ').join('_')}`
+    
+      case 'VISUELS 3D':
+        return `/projets/visuels_3d/${data.projects.visuels_3d[0].title.split(' ').join('_')}`
+    
+      default:
+        break;
+    }
+  }
+
+  const renderProjects = data.covers.map(cover => (
+    <Link key={cover.title} to={getUrl(cover.title)}>
+      <Projet title={cover.title}/>
     </Link>
   ))
 

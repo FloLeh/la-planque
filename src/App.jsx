@@ -29,7 +29,7 @@ class App extends Component {
                 <Contact/>
               </React.Fragment>
             )}/>
-            <Route exact path='/projets/:projectTitle' component={SingleProjectPage}/>
+            <Route exact path='/projets/:cover/:projectTitle' component={SingleProjectPage}/>
             <Redirect to="/" />
           </Switch>
         </Router>

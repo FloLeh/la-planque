@@ -6,15 +6,17 @@ import { Carousel } from '../../components'
 import next_arrow from '../../assets/images/arrow_project.png'
 
 export const SingleProjectPage = ({ match }) => {
-  const { projectTitle } = match.params
-  const project = data.projects.find(project => project.title === projectTitle)
-  const index = data.projects.findIndex(project => project.title === projectTitle)
+  const { projectTitle, cover } = match.params
+  const cleanProjectTitle = projectTitle.split('_').join(' ')
+  const projects = data.projects[cover]
+  const project = projects.find(project => project.title === cleanProjectTitle)
+  const index = projects.findIndex(project => project.title === cleanProjectTitle)
 
   const nextProjectTitle = () => {
-    if (index !== data.projects.length - 1) {
-      return data.projects[index + 1].title
+    if (index !== projects.length - 1) {
+      return projects[index + 1].title.split(' ').join('_')
     } else {
-      return data.projects[0].title
+      return projects[0].title.split(' ').join('_')
     }
   }
 
@@ -31,14 +33,14 @@ export const SingleProjectPage = ({ match }) => {
         <div></div>
       </a>
       <div className="single-project__left">
-        <Carousel/>
+        <Carousel key={cleanProjectTitle} projectTitle={cleanProjectTitle} cover={cover}/>
       </div>
       <div className="single-project__right">
         <h4 className='project-title' >{project.title}</h4>
         <div className='project-description'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut autem doloremque odio minima nihil veritatis qui incidunt? Cum aliquam suscipit architecto placeat voluptatum ad vel laudantium nisi, quasi maiores tempora!
         </div>
-        <Link className="single-project__next" to={`/projets/${nextProjectTitle()}`}>
+        <Link className="single-project__next" to={`/projets/${cover}/${nextProjectTitle()}`}>
           <img src={next_arrow} alt="next"/>
         </Link>
       </div>

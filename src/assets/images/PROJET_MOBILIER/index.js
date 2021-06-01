@@ -1,0 +1,8 @@
+export { default as Projet1 } from './1 Mobilier chambre d\'enfant sous pente.jpg'
+export { default as Projet2 } from './2 Mobilier chambre d\'enfant sous pente.jpg'
+export { default as Projet3 } from './3 Mobilier chambre enfant sous combles.jpg'
+export { default as Projet4 } from './4 Mobilier chambre d\'enfant sous pente.jpg'
+export { default as Projet5 } from './Mobilier chambre.jpg'
+export { default as Projet6 } from './Mobilier espace de travail.jpg'
+export { default as Projet7 } from './Mobilier salle d\'eau.jpg'
+export { default as Projet8 } from './Mobilier vestiaire.jpg'

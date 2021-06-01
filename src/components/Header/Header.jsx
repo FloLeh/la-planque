@@ -38,13 +38,13 @@ export class Header extends Component {
         <Friends/>
         <Menu/>
         <div className='socials'>
-          <a href="https://www.instagram.com">
+          <a href="https://www.instagram.com" target='blank'>
             <img src={instagram} alt="instagram"/>
           </a>
           <span onClick={() => this.toggleFriends()} className='socials__amies'>
             <img src={amies} alt='amies'/>
           </span>
-          <a href="https://www.linkedin.com">
+          <a href="https://www.linkedin.com" target='blank'>
             <img src={linkedin} alt="linkedin"/>
           </a>
         </div>

@@ -1,6 +1,23 @@
 .carousel {
-  width: 70%;
-  height: 70%;
+  width: 80%;
+  height: 80%;
+}
+
+.single_image {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel__image {
+  height: 80vh;
+  width: auto;
+  max-width: 700px;
+}
+
+.carousel__image__single {
+  max-height: 80vh;
+  width: auto;
+  max-width: 700px;
 }
 
 @media (max-width: 640px) {

@@ -1,8 +1,10 @@
 .projet {
   border: 2px solid #000;
   background-size: cover;
+  background-position: center;
   z-index: 30;
   height: 100%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13,16 +15,17 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  overflow: hidden;
 }
 
 .projet__bottom {
   font-family: 'SF Movie Poster';
   letter-spacing: 2px;
-  font-size: 18pt;
-  background-color: rgba(0,0,0,0.6);
+  font-size: 30pt;
+  background-color: rgba(255,255,255,0.5);
   text-align: center;
   line-height: 1.8;
-  color: #fff;
+  color: #000;
   opacity: 0;
   -webkit-transition: .5s ease;
   -o-transition: .5s ease;

@@ -1,0 +1,6 @@
+export { default as Projet1 } from './1_Projet_complexe_hôtelier.jpg'
+export { default as Projet2 } from './2_Projet_Lycée_expérimental_Espaces_communs .jpg'
+export { default as Projet3 } from './3_Projet_reception_ERP.jpg'
+export { default as Projet4 } from './4_Projet_espace_aquatique_camping.jpg'
+export { default as Projet5 } from './5_Projet_bâtiment_entreprise.jpg'
+export { default as Projet6 } from './6_Projet_constructeur _Bâtiment_existant_transformé_en_4_logements_indépendants.jpg'
