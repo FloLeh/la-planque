@@ -6,11 +6,14 @@ export class Menu extends Component {
   componentDidMount() {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
-          e.preventDefault()
-  
-          document.querySelector(this.getAttribute('href')).scrollIntoView({
-              behavior: 'smooth'
-          })
+        e.preventDefault()
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        })
+      })
+      anchor.addEventListener('click', () => {
+        this.props.handleClick()
       })
     })
   }
@@ -20,13 +23,13 @@ export class Menu extends Component {
       <div className='menu hide_mobile'>
         <nav>
           <ul>
-            <li><span></span><a href="#missions">MISSIONS</a></li>
-            <li><span></span><a href="#projets">PROJETS</a></li>
+            <li><a href="#missions">MISSIONS</a><span></span></li>
+            <li><a href="#projets">PROJETS</a><span></span></li>
             <li><a href="#home">
              <img className='menu__logo' src={logo} alt='logo'></img>
             </a></li>
-            <li><span></span><a href="#collectif">COLLECTIF</a></li>
-            <li><span></span><a href="#contact">SE RENCONTRER</a></li>
+            <li><a href="#collectif">COLLECTIF</a><span></span></li>
+            <li><a href="#contact">SE RENCONTRER</a><span></span></li>
           </ul>
         </nav>
       </div>

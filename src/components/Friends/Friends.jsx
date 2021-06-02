@@ -11,11 +11,11 @@ export default function Friends() {
           <span>les ami.e.s</span>
         </div>
         <div className="friends__right">
-          ? - Tunisie <br/>
-          ? - Rennes [35]<br/>
+          Rabeb CHEKIR - Tunisie <br/>
+          Gaëlle LOCHET - Rennes [35]<br/>
           xyz architectes - Paris [75]<br/>
-          B concept/créateur de magasin - Nantes [44]<br/>
-          ?/architecte intérieur - Angers [49]<br/>
+          B.concept/créateur de magasin - Nantes [44]<br/>
+          Hïlo/architecte intérieur - Angers [49]<br/>
           Casa deluxe FR/constructeur - Nantes [44]
         </div>
       </div>

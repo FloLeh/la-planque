@@ -12,10 +12,11 @@ export class Header extends Component {
     this.state = {
       friends: false
     }
+    this.toggleFriends = this.toggleFriends.bind(this)
   }
 
-  toggleFriends() {
-    if (!this.state.friends) {
+  toggleFriends(friends = this.state.friends) {
+    if (!friends) {
       document.querySelector('.friends').style.left = '0%'
       document.querySelector('body').style.overflowY = 'hidden'
       document.querySelector('.friends__cross').style.display = 'flex'
@@ -36,7 +37,7 @@ export class Header extends Component {
     return (
       <div className='header'>
         <Friends/>
-        <Menu/>
+        <Menu friends={this.state.friends} handleClick={() => this.toggleFriends(true)}/>
         <div className='socials'>
           <a href="https://www.instagram.com" target='blank'>
             <img src={instagram} alt="instagram"/>
