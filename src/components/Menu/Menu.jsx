@@ -4,11 +4,14 @@ import logo from '../../assets/images/logo_small.png'
 
 export class Menu extends Component {
   componentDidMount() {
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    document.querySelectorAll('a[href^="#"]').forEach((anchor, index) => {
       anchor.addEventListener('click', function (e) {
         e.preventDefault()
 
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
+        const element = document.querySelector(this.getAttribute('href')).getBoundingClientRect().top
+        const yOffset = index !== 4 ? -100 : 0
+        window.scrollTo({
+            top: element + yOffset + window.pageYOffset,
             behavior: 'smooth'
         })
       })

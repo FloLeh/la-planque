@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './Collectif.css'
 import shadow4 from '../../assets/images/shadow4.png'
+import wip from '../../assets/images/work n progress.png'
+import wip_hourglass from '../../assets/images/i.png'
 
 export class Collectif extends Component {
   render() {
@@ -15,7 +17,8 @@ export class Collectif extends Component {
           <div>3 fois plus d'expériences</div>
           <div>pour le projet qui vous fait envie...</div>
           <div className="collectif__video">
-            <iframe title='video' width="500" height="250" src="https://www.youtube.com/embed/ivAw6j6M_1g" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <img className='wip' src={wip} alt="wip" />
+            <img className='wip_hourglass' src={wip_hourglass} alt="hourglass" />
           </div>
         </div>
       </div>

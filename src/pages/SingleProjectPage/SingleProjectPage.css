@@ -144,79 +144,16 @@
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
+    height: auto;
+    min-height: 100vh;
   }
 
-  @-webkit-keyframes cross1 {
-    0% {
-      -webkit-transform: rotate(0deg);
-              transform: rotate(0deg);
-      margin-bottom: 1px;
-    }
-    100% {
-      -webkit-transform: rotate(45deg);
-              transform: rotate(45deg);
-      margin-bottom: 0;
-    }
-  }
-
-  @keyframes cross1 {
-    0% {
-      -webkit-transform: rotate(0deg);
-              transform: rotate(0deg);
-      margin-bottom: 1px;
-    }
-    100% {
-      -webkit-transform: rotate(45deg);
-              transform: rotate(45deg);
-      margin-bottom: 0;
-    }
-  }
-
-  @-webkit-keyframes cross2 {
-    0% {
-      -webkit-transform: translateY(0px) rotate(0deg);
-              transform: translateY(0px) rotate(0deg);
-    }
-    100% {
-      -webkit-transform: translateY(-1px) rotate(135deg);
-              transform: translateY(-1px) rotate(135deg);
-    }
-  }
-
-  @keyframes cross2 {
-    0% {
-      -webkit-transform: translateY(0px) rotate(0deg);
-              transform: translateY(0px) rotate(0deg);
-    }
-    100% {
-      -webkit-transform: translateY(-1px) rotate(135deg);
-              transform: translateY(-1px) rotate(135deg);
-    }
-  }
-
-  .closing-cross > div:nth-of-type(1) {
-    -webkit-animation: cross1 1s ease 1s forwards;
-            animation: cross1 1s ease 1s forwards;
-  }
-  
-  .closing-cross > div:nth-of-type(2) {
-    -webkit-animation: cross2 1s ease 1s forwards;
-            animation: cross2 1s ease 1s forwards;
-  }
-
-  .single-project__left {
-    -webkit-box-flex: 0;
-        -ms-flex: none;
-            flex: none;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-  }
-  
   .single-project__next {
-    position: absolute;
-    bottom: 5vh;
-    left: 65vw;
+    position: relative;
+    bottom: 0;
+    left: -20px;
+    align-self: flex-end;
+    text-align: end;
     font-size: 28px;
   }
 
@@ -239,13 +176,10 @@
             justify-content: flex-end;
     padding-top: 0;
   }
-
-  /* .single-project__right > img {
-    width: 24px;
-  } */
   
   .project-title {
-    font-size: 40px;
+    font-size: 36px;
+    width: 90%;
   }
   
   .project-description {

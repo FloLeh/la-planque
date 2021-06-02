@@ -166,11 +166,11 @@
 @media (max-width: 640px) {
   .contact {
     overflow: hidden;
-    height: calc(100vh - 60px);
+    height: 100vh;
   }
 
   .contact__shadow {
-    height: calc(100vh - 60px);
+    height: 100vh;
   }
 
   .contact__container {

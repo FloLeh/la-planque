@@ -1,6 +1,6 @@
 .collectif {
   background: #fff;
-  height: 100vh;
+  height: calc(100vh - 100px);
   -webkit-box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
           box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
 }
@@ -8,7 +8,7 @@
 .collectif__shadow {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: calc(100vh - 100px);
   z-index: 20;
 }
 
@@ -32,7 +32,7 @@
   z-index: 20;
 }
 
-.collectif__container div {
+.collectif__container div:not(:last-of-type) {
   letter-spacing: 3px;
   line-height: 1;
   display: block;
@@ -98,40 +98,84 @@
   text-align: center;
 }
 
-.collectif__container div:nth-of-type(7) {
+.collectif__video {
+  width: 60%;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.6);
-          box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.6);
+}
+
+.collectif__video .wip {
+  width: 400px
+}
+
+.collectif__video .wip_hourglass {
+  position: absolute;
+  width: 6.8px;
+  top: 167.5px;
+  left: 432px;
+  -webkit-filter: blur(0.4px);
+          filter: blur(0.4px);
+  -webkit-animation: hourglass 4s ease infinite;
+          animation: hourglass 4s ease infinite;
+}
+
+@-webkit-keyframes hourglass {
+  0% { -webkit-transform: rotate(0deg); transform: rotate(0deg)}
+  50% { -webkit-transform: rotate(180deg); transform: rotate(180deg)}
+  100% { -webkit-transform: rotate(360deg); transform: rotate(360deg)}
+}
+
+@keyframes hourglass {
+  0% { -webkit-transform: rotate(0deg); transform: rotate(0deg)}
+  50% { -webkit-transform: rotate(180deg); transform: rotate(180deg)}
+  100% { -webkit-transform: rotate(360deg); transform: rotate(360deg)}
 }
 
 /****** Mobile ******/
 
 @media (max-width: 640px) {
   .collectif {
-    height: auto;
+    height: 100vh;
     position: relative;
   }
 
   .collectif__shadow {
-    height: 100%;
+    height: 100vh;
   }
 
+  .collectif__container div:nth-of-type(1) {
+    font-size: 32pt;
+  }
+  .collectif__container div:nth-of-type(2) {
+    font-size: 24pt;
+  }
   .collectif__container div:nth-of-type(4) {
+    font-size: 24pt;
+    text-align: center;
+    font-weight: bold;
+  }
+  .collectif__container div:nth-of-type(5) {
     font-size: 28pt;
+  }
+  .collectif__container div:nth-of-type(6) {
+    font-size: 22pt;
     text-align: center;
     font-weight: bold;
   }
 
-  .collectif__container div:nth-of-type(7) iframe {
-    width: 100%;
-    height: auto;
+  .collectif__video .wip {
+    width: 200px
+  }
+
+  .collectif__video .wip_hourglass {
+    position: absolute;
+    width: 3.2px;
+    top: 80px;
+    left: 83px;
   }
 }

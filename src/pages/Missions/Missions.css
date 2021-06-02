@@ -1,5 +1,5 @@
 .missions {
-  height: 100vh;
+  height: calc(100vh - 100px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,8 +10,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .pictos {
@@ -36,7 +37,7 @@
 .mission__shadow {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: calc(100vh - 100px);
   z-index: 50;
 }
 
@@ -57,24 +58,18 @@
     margin-bottom: 20px;
   }
 
+  .mission__shadow {
+    height: auto;
+  }
+
   .pictos {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100%;
-    padding: 0 40px 20px 40px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   .mission__bottom {
     padding: 0 30px;
     font-size: 18px;
   }
-
 }

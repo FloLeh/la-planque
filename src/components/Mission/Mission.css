@@ -34,16 +34,17 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    min-height: none;
+    min-height: 0;
+    margin-bottom: 20px;
   }
 
   .mission img {
-    width: 30vw;
+    width: 75px;
     margin-bottom: 10px;
   }
 
   .mission div {
-    font-size: 30pt;
+    font-size: 23pt;
     letter-spacing: 4px;
     max-width: 150px;
   }

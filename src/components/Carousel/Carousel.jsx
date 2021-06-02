@@ -47,7 +47,6 @@ function Carousel(props) {
     <div className={`carousel ${cover!=='architecture' && 'single_image'}`}>
       {cover==='architecture' ?
         <Flickity static options={flickityOptions}>
-          {console.log(coverName()[index])}
           {coverName()[index].map((imageSrc => 
             <img key={imageSrc} className='carousel__image' src={imageSrc} alt={projectTitle} />
           ))}
