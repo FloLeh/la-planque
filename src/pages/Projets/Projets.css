@@ -44,8 +44,8 @@
     display: grid;
     -ms-grid-columns: 1fr 0px 1fr;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 0px;
-    height: 80%;
-    padding: 50px 0px;
+    grid-gap: 20px;
+    height: 65%;
+    padding: 50px 20px;
   }
 }

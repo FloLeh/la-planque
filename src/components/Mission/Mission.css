@@ -15,6 +15,7 @@
           justify-content: space-between;
   z-index: 40;
   min-height: 250px;
+  width: 200px;
 }
 
 .mission img {
@@ -27,6 +28,7 @@
   letter-spacing: 4px;
   width: 99%;
   line-height: 0.9;
+  text-align: center;
 }
 
 @media (max-width: 640px) {
@@ -47,5 +49,9 @@
     font-size: 23pt;
     letter-spacing: 4px;
     max-width: 150px;
+  }
+
+  .mission:nth-of-type(2), .mission:nth-of-type(4)  {
+    transform: translateY(-70px);
   }
 }

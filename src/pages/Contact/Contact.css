@@ -177,23 +177,30 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    padding-top: 12vh;
+    padding: 150px 15px 0 15px;
   }
 
   .contact__container .email {
-    font-size: 36px;
-    letter-spacing: 4px;
+    font-size: 30px;
+    letter-spacing: 1.5px;
     margin-bottom: 6vh;
   }
 
   .contact__tel {
-    font-size: 30px;
-    letter-spacing: 2.5px;
+    font-size: 26px;
+    letter-spacing: 2px;
     z-index: 40;
+    line-height: 1;
   }
 
   .contact__tel p {
-    line-height: 1.4;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+
+  .contact__tel .lisa {
+    padding-right: 10px;
+    margin-right: 10px;
   }
 
   .contact__tel .tel {
@@ -201,8 +208,9 @@
   }
 
   .signature {
-    font-size: 18px;
-    line-height: 1.2;
+    font-size: 16px;
+    line-height: 0.8;
+    letter-spacing: 1.5px;
     z-index: 50;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -211,11 +219,13 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    align-items: center;
     right: 25px;
   }
 
   .smiley {
-    bottom: 60px;
+    bottom: 50px;
+    right: 72px;
   }
   
   .plante {

@@ -1,0 +1,10 @@
+- Animation du LA à mettre au même moment que le catch 
+- chevauchement de projets sur collectif 
+- hover sur toute l'image du projet centré
+- reprendre les tirets des noms de fichiers pour les mettre dans les paragraphes
+
+Version mobile : 
+- gap entre covers projets
+- missions : donner une width aux pictos pour les centrer + remonter demarch et mobilier pour les mettre en quinconces (seulement en mobile)
+
+Missions : remettre le texte en bas + voir width démarches administratives
