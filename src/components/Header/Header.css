@@ -127,7 +127,6 @@
   .socials > a > img {
     width: 22px;
     height: 20px;
-    margin-right: 26px;
   }
 
   .socials__amies img {
@@ -135,5 +134,10 @@
     margin: 10px 0;
     width: 22px;
     height: 24px;
+  }
+
+  .friends__cross {
+    top: 40px;
+    right: 10px;
   }
 }

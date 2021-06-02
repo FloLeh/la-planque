@@ -4,7 +4,7 @@ import amies from '../../assets/images/picto_amies.png'
 
 export default function Friends() {
   return (
-    <div className='friends hide_mobile'>
+    <div className='friends'>
       <div className="friends__container">
         <div className="friends__left">
           <img src={amies} alt="amies"/>

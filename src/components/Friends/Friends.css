@@ -58,3 +58,33 @@
   padding-left: 15px;
   margin-left: 15px;
 }
+
+
+/****** Mobile ******/
+
+@media (max-width: 640px) {
+
+  .friends__container {
+    padding: 0 10px;
+  }
+
+  .friends__left > img {
+    width: 40px;
+  }
+
+  .friends__left > span {
+    font-size: 44px;
+    border-bottom: 1px solid #000;
+    line-height: 0.9;
+  }
+
+  .friends__right {
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    border-left: 1px solid #000;
+    padding-left: 5px;
+    margin-left: px;
+  }
+
+}
