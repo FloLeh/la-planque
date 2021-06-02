@@ -54,8 +54,8 @@
 .collectif__container div:nth-of-type(1)::after {
   content: '';
   position: absolute;
-  top: 100%;
-  width: 100%;
+  top: 47px;
+  width: 120px;
   left: 0px;
   border-bottom: 1px solid #000;
 }
@@ -99,7 +99,6 @@
 }
 
 .collectif__video {
-  width: 60%;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -117,7 +116,7 @@
   position: absolute;
   width: 6.8px;
   top: 167.5px;
-  left: 432px;
+  left: 174px;
   -webkit-filter: blur(0.4px);
           filter: blur(0.4px);
   -webkit-animation: hourglass 4s ease infinite;
@@ -151,6 +150,12 @@
   .collectif__container div:nth-of-type(1) {
     font-size: 32pt;
   }
+
+  .collectif__container div:nth-of-type(1)::after {
+    top: 47px;
+    width: 110px;
+    left: 0px;
+  }
   .collectif__container div:nth-of-type(2) {
     font-size: 24pt;
   }
@@ -169,13 +174,15 @@
   }
 
   .collectif__video .wip {
-    width: 200px
+    width: 300px
   }
 
   .collectif__video .wip_hourglass {
     position: absolute;
-    width: 3.2px;
-    top: 80px;
-    left: 83px;
+    width: 4.8px;
+    top: 125.4px;
+    left: 131px;
+    -webkit-filter: blur(0);
+          filter: blur(0);
   }
 }
