@@ -30,7 +30,7 @@ export class Contact extends Component {
               <p className="nom">Nina BÉNÉTEAU</p>
             </div>
           </div>
-          <img className='plante' src={plant} alt="plante"/>
+        <LazyLoadImage className='plante' src={plant} alt="plante"/>
           <div className="signature"><span>site réalisé par florian lehuédé</span> <span> - florianlehuede@gmail.com</span></div>
           <div className="smiley" data-aos-duration='400' data-aos='fade-left' data-aos-anchor-placement="bottom-bottom">
             <img className='yeux' src={yeux_smiley} alt="smiley yeux"/>
