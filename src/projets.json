@@ -8,36 +8,37 @@
   "projects": {
     "architecture": 
       [
-        {"title": "Rénovation & aménagement d'une maison sur 3 niveaux", "content": "lorem"},
-        {"title": "Aménagement d'un hall d'accueil pour une association", "content": "lorem"},
-        {"title": "Aménagement d'un ancien pressoir en habitation", "content": "lorem"},
-        {"title": "Aménagement intérieur d'une maison Rochelaise", "content": "lorem"}
+        {"title": "Rénovation & aménagement d'une maison sur 3 niveaux.", "content": ["Combles", "Chambre parentale", "Combles", "Pièce de vie", "Plan 2D et 3D", "WC", "Salle d'eau"]},
+        {"title": "Aménagement d'un hall d'accueil pour une association.", "content": ["", "", "Enseigne lumineuse", "Croquis 3D & Plan"]},
+        {"title": "Aménagement d'un ancien pressoir en habitation.", "content": ["Façade", "Cuisine", "Chambre"]},
+        {"title": "Aménagement intérieur d'une maison Rochelaise.", "content": ["Cuisine", "Plan/croquis du 1er étage", "Chambre", "Véranda et jardin", "Espace bibliothèque"]},
+        {"title": "Projet construction d'un logement aux Sorinières.", "content": [""]}
       ],
     "mobilier":
       [
-        {"title": "Mobilier chambre d'enfant sous pente 1", "content": "lorem"},
-        {"title": "Mobilier chambre d'enfant sous pente 2", "content": "lorem"},
-        {"title": "Mobilier chambre enfant sous combles", "content": "lorem"},
-        {"title": "Mobilier chambre d'enfant sous pente 3", "content": "lorem"},
-        {"title": "Mobilier chambre", "content": "lorem"},
-        {"title": "Mobilier espace de travail", "content": "lorem"},
-        {"title": "Mobilier salle d'eau", "content": "lorem"},
-        {"title": "Mobilier vestiaire", "content": "lorem"}
+        {"title": "Petit dressing et rangement pour une chambre d'enfant sous pente.", "content": ""},
+        {"title": "Petit dressing et rangement pour une chambre d'enfant sous pente2.", "content": ""},
+        {"title": "Petit dressing et rangement pour une chambre d'enfant sous pente3.", "content": ""},
+        {"title": "Petit dressing et rangement pour une chambre d'enfant sous pente4.", "content": ""},
+        {"title": "Meuble étagères et rangement avec petite tablette bureau.", "content": ""},
+        {"title": "Conception de différents types d'espace de travail pour le lycée expérimental de Saint Nazaire.", "content": ""},
+        {"title": "Salle d'eau d'une chambre parentale.", "content": ""},
+        {"title": "Espace vestiaire pour l'entrée d'une maison.", "content": ""}
       ],
     "paysage": 
       [
-        {"title": "Projet d'aménagement paysager - Placette", "content": "lorem"},
-        {"title": "Projet d'aménagement paysager - Aire de jeux", "content": "lorem"},
-        {"title": "Projet d'aménagement d'un jardin privée - planche d'ambiance", "content": "lorem"}
+        {"title": "Projet d'aménagement d'une placette et d'une aire de jeux.", "content": ""},
+        {"title": "Aménagement d'un jardin privé. Planche d'ambiance et croquis.", "content": ""},
+        {"title": "Aménagement d'un jardin privé. Schéma directeur et palette végétale pour massif.", "content": ""}
       ],
     "visuels_3d": 
       [
-        {"title": "Complexe hôtelier", "content": "lorem"},
-        {"title": "Lycée expérimental - Espaces communs", "content": "lorem"},
-        {"title": "Réception d'un ERP", "content": "lorem"},
-        {"title": "Espace aquatique d'un camping", "content": "lorem"},
-        {"title": "Bâtiment d'entreprise", "content": "lorem"},
-        {"title": "Constructeur - Bâtiment existant transformé en 4 logements indépendants", "content": "lorem"}
+        {"title": "Complexe hôtelier.", "content": ""},
+        {"title": "Lycée expérimental - Espaces communs.", "content": ""},
+        {"title": "Réception d'un ERP.", "content": ""},
+        {"title": "Espace aquatique d'un camping.", "content": ""},
+        {"title": "Bâtiment d'entreprise.", "content": ""},
+        {"title": "Constructeur - Bâtiment existant transformé en 4 logements indépendants.", "content": ""}
       ]
   }
 }

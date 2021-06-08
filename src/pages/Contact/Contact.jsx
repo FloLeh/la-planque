@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 import './Contact.css'
 import shadow5 from '../../assets/images/shadow5.png'
 import yeux_smiley from '../../assets/images/picto_smiley_sans_bouche.png'
@@ -10,7 +11,10 @@ export class Contact extends Component {
   render() {
     return (
       <div id='contact' className='contact'>
-        <img className='contact__shadow' src={shadow5} alt="shadow5"/>
+        <LazyLoadImage
+          className='contact__shadow'
+          alt="shadow5"
+          src={shadow5} />
         <div className="contact__container">
           <a className="email" href="mailto:laplanque.archi@gmail.com">laplanque.archi@gmail.com</a>
           <div className="contact__tel">

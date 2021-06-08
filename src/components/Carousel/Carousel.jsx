@@ -9,18 +9,26 @@ import architecture from '../../assets/images/PROJET_ARCHITECTURE'
 import * as mobilier from '../../assets/images/PROJET_MOBILIER'
 import * as paysage from '../../assets/images/PROJET_PAYSAGE'
 
-const flickityOptions = {
-  wrapAround: true,
-  arrowShape: { 
-    x0: 15,
-    x1: 55, y1: 40,
-    x2: 55, y2: 35,
-    x3: 20
-  }
-}
-
 function Carousel(props) {
-  const { projectTitle, cover } = props
+  const { projectTitle, cover, handleChange } = props
+
+  const onChange = (index) => {
+    handleChange(index)
+  }
+
+  const flickityOptions = {
+    wrapAround: true,
+    arrowShape: { 
+      x0: 15,
+      x1: 55, y1: 40,
+      x2: 55, y2: 35,
+      x3: 20
+    },
+    on: {
+      change: onChange
+    }
+  }
+
   const coverName = () => {
     switch (cover) {
       case 'architecture':

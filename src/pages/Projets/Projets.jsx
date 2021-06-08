@@ -1,4 +1,5 @@
 import React from 'react'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { Projet } from '../../components'
 import './Projets.css'
 import shadow3 from '../../assets/images/shadow3.png'
@@ -34,7 +35,10 @@ export const Projets = () => {
 
   return (
     <div id='projets' className='projets'>
-      <img className='projets__shadow' src={shadow3} alt="shadow3"/>
+      <LazyLoadImage
+          className='projets__shadow'
+          alt="shadow3"
+          src={shadow3} />
       <div className="projects__container">
         {renderProjects}
       </div>

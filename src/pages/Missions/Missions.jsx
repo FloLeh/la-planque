@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 import paysage from '../../assets/images/picto_paysage.png'
 import dossier from '../../assets/images/picto_dossier_admini.png'
 import archi from '../../assets/images/picto_archi.png'
@@ -12,7 +13,11 @@ export class Missions extends Component {
   render() {
     return (
       <div id='missions' className='missions'>
-        <img className='mission__shadow' src={shadow2} alt="shadow2"/>
+        <LazyLoadImage
+          className='mission__shadow'
+          alt="shadow2"
+          src={shadow2} />
+        {/* <img  className='mission__shadow' src={shadow2} alt="shadow2"/> */}
         <div className="pictos">
           <Mission text='PAYSAGE' alt='paysage' delay='100' image={paysage}/>
           <Mission text='DÉMARCHES ADMINISTRATIVES' alt='dossier' delay='200' image={dossier}/>

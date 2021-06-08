@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 import './Home.css'
 import catch_phrase from '../../assets/images/catch.png'
 import logo_big_empty from '../../assets/images/logo_big_nocatch_nola.png'
@@ -25,6 +26,10 @@ export class Home extends Component {
     return (
       <div id='home' className='home'>
         <img className='home__shadow' src={shadow1} alt="shadow"/>
+        <LazyLoadImage
+          className='home__shadow'
+          alt="shadow1"
+          src={shadow1} />
         <img className='home__logo' src={logo_big_empty} alt="planque"/>
         <img className='home__la la-animation' src={la_big} alt="la"/>
         <img className='home__catch catch-animation' src={catch_phrase} alt="catch"/>

@@ -66,7 +66,6 @@ a {
 	
 	body {
     height: calc(var(--vh, 1vh) * 100);
-		max-width: auto;
 		margin: 0;
     padding: 0;
 	}
@@ -85,7 +84,9 @@ a {
 	video {
 		max-width: 100%;
 	}
-	
+}
+
+@media (max-width: 800px) {
   .hide_mobile {
 		display: none !important;
 	}

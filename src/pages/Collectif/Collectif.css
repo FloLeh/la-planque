@@ -1,6 +1,6 @@
 .collectif {
   background: #fff;
-  height: calc(100vh - 100px);
+  min-height: calc(100vh - 100px);
   -webkit-box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
           box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
 }
@@ -65,14 +65,9 @@
   font-weight: bold;
 }
 
-.cedille {
-  position: relative;
-}
-
-.cedille::after {
-  content: ",";
-  position: absolute;
-  top: 12%;
+.faconne img {
+  width: 88px;
+  transform: translateY(12px);
 }
 
 .collectif__container div:nth-of-type(3) {
@@ -162,6 +157,12 @@
     margin-top: 15px;
     font-size: 16pt;
   }
+
+  .faconne img {
+    width: 48px;
+    transform: translateY(6px);
+  }
+
   .collectif__container div:nth-of-type(3) {
     font-size: 18pt;
   }

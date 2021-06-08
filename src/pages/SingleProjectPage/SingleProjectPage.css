@@ -126,9 +126,12 @@
 }
 
 .project-description {
-  text-align: justify;
   width: 50%;
   font-size: 20px;
+}
+
+.project-description p {
+  margin: 0;
 }
 
 
@@ -178,7 +181,7 @@
   }
   
   .project-title {
-    font-size: 36px;
+    font-size: 28px;
     width: 90%;
   }
   

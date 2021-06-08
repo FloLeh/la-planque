@@ -1,5 +1,5 @@
 .missions {
-  height: calc(100vh - 100px);
+  min-height: calc(100vh - 100px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,9 +10,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .pictos {
@@ -33,6 +30,7 @@
   padding: 60px 0;
   z-index: 30;
   flex-wrap: wrap;
+  flex: 2;
 }
 
 .mission__shadow {
@@ -47,6 +45,7 @@
   font-family: 'Microsoft Yi Baiti';
   font-size: 20pt;
   font-weight: 600;
+  padding-bottom: 10px;
 }
 
 
@@ -64,8 +63,9 @@
   }
 
   .pictos {
+    flex-direction: column;
     padding: 0;
-    justify-content: space-around;
+    justify-content: center;
   }
 
   .mission__bottom {
