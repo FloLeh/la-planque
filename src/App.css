@@ -1,13 +1,11 @@
 @font-face {
   font-family: 'SF Movie Poster';
   src: url('./assets/fonts/SF_Movie_Poster.ttf');
-  font-display: block;
 }
 
 @font-face {
   font-family: 'Microsoft Yi Baiti';
   src: url( './assets/fonts/Microsoft_Yi_Baiti.ttf');
-  font-display: block;
 }
 
 body {

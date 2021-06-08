@@ -61,6 +61,11 @@
 
 .friends a {
   color: #000;
+  transition: .5s ease;
+}
+
+.friends a:hover {
+  color: #ababab;
 }
 
 /****** Mobile ******/

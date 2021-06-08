@@ -29,8 +29,11 @@
   width: 80%;
   padding: 60px 0;
   z-index: 30;
-  flex-wrap: wrap;
-  flex: 2;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
 }
 
 .mission__shadow {
@@ -63,9 +66,14 @@
   }
 
   .pictos {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 0;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .mission__bottom {
