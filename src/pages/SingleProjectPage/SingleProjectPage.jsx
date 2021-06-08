@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import data from '../../projets.json'
 import './SingleProjectPage.css'
-import { Link, Redirect, withRouter } from 'react-router-dom'
+import { Redirect, withRouter } from 'react-router-dom'
 import { Carousel } from '../../components'
 import next_arrow from '../../assets/images/arrow_project.png'
 
