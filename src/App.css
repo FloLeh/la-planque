@@ -20,7 +20,7 @@ body {
   width: 100%;
   height: 90px;
   position: fixed;
-  background: url('./assets/images/wall.png');
+  background: url('./assets/images/wall.jpg');
   background-position: top;
   background-size: cover;
   z-index: 40;

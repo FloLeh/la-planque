@@ -17,7 +17,6 @@ export class Missions extends Component {
           className='mission__shadow'
           alt="shadow2"
           src={shadow2} />
-        {/* <img  className='mission__shadow' src={shadow2} alt="shadow2"/> */}
         <div className="pictos">
           <Mission text='PAYSAGE' alt='paysage' delay='100' image={paysage}/>
           <Mission text='DÉMARCHES ADMINISTRATIVES' alt='dossier' delay='200' image={dossier}/>
