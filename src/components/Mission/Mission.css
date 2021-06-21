@@ -10,9 +10,9 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  -webkit-box-pack: justify;
+  /* -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: space-between; */
   z-index: 40;
   min-height: 320px;
   width: 200px;

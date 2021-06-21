@@ -116,10 +116,8 @@
 .collectif__video .wip_hourglass {
   position: absolute;
   width: 6.8px;
-  top: 167.5px;
+  top: 166.3px;
   left: 174px;
-  -webkit-filter: blur(0.4px);
-          filter: blur(0.4px);
   -webkit-animation: hourglass 4s ease infinite;
           animation: hourglass 4s ease infinite;
 }
