@@ -108,6 +108,7 @@
 
 .collectif__video .wip {
   width: 400px;
+  height: 260px;
   -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
           box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
