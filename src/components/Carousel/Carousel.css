@@ -9,7 +9,7 @@
 }
 
 .carousel__image {
-  height: 90vh;
+  height: auto;
   width: 400px;
   max-width: 700px;
 }
