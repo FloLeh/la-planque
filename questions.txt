@@ -1,10 +1,10 @@
-- Animation du LA à mettre au même moment que le catch 
-- chevauchement de projets sur collectif 
-- hover sur toute l'image du projet centré
-- reprendre les tirets des noms de fichiers pour les mettre dans les paragraphes
+- brouettes à aligner (roues)
 
 Version mobile : 
-- gap entre covers projets
-- missions : donner une width aux pictos pour les centrer + remonter demarch et mobilier pour les mettre en quinconces (seulement en mobile)
-
-Missions : remettre le texte en bas + voir width démarches administratives
+ - plus d'espace entre visuel 3D et le petit texte
+ - hover à remettre en bandeau sur projets
+ - sablier trop haut
+ - friends trop gros (chaque contact sur un ligne max)
+ - menu burger en haut à gauche avec juste les titres qui descend.
+ - animation ondulation sur la barre du milieu sur le burger
+ - diminuer word spacing sur la ligne architecture . paysage... de collectif
