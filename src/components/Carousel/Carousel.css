@@ -15,7 +15,7 @@
 }
 
 .carousel__image__single {
-  max-height: 90vh;
+  max-height: auto;
   width: auto;
   max-width: 700px;
 }
