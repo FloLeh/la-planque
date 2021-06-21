@@ -61,11 +61,13 @@
 
 .friends a {
   color: #000;
-  transition: .5s ease;
+  transition: .3s ease;
+  line-height: 1;
 }
 
 .friends a:hover {
   color: #ababab;
+  transition: .3s ease;
 }
 
 /****** Mobile ******/

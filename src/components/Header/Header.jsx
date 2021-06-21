@@ -45,7 +45,7 @@ export class Header extends Component {
           <span onClick={() => this.toggleFriends()} className='socials__amies'>
             <img src={amies} alt='amies'/>
           </span>
-          <a href="https://www.linkedin.com/company/la-planque-repère-d'architectes/?viewAsMember=true" target='blank'>
+          <a href="https://www.linkedin.com/company/la-planque-rep%C3%A8re-d-architectes/about/?viewAsMember=true" target='blank'>
             <img src={linkedin} alt="linkedin"/>
           </a>
         </div>
