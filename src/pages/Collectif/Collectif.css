@@ -67,7 +67,9 @@
 
 .faconne img {
   width: 88px;
-  transform: translateY(12px);
+  -webkit-transform: translateY(12px);
+      -ms-transform: translateY(12px);
+          transform: translateY(12px);
 }
 
 .collectif__container div:nth-of-type(3) {
@@ -106,7 +108,8 @@
 
 .collectif__video .wip {
   width: 400px;
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .collectif__video .wip_hourglass {
@@ -160,7 +163,9 @@
 
   .faconne img {
     width: 48px;
-    transform: translateY(6px);
+    -webkit-transform: translateY(6px);
+        -ms-transform: translateY(6px);
+            transform: translateY(6px);
   }
 
   .collectif__container div:nth-of-type(3) {
