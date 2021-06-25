@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Menu, Friends } from '../../components'
+import { Menu, Friends, Burger } from '../../components'
 import linkedin from '../../assets/images/linkedin.png'
 import amies from '../../assets/images/picto_amies.png'
 import instagram from '../../assets/images/instagram.png'
@@ -36,6 +36,7 @@ export class Header extends Component {
   render() {
     return (
       <div className='header'>
+        <Burger/>
         <Friends/>
         <Menu friends={this.state.friends} handleClick={() => this.toggleFriends(true)}/>
         <div className='socials'>
