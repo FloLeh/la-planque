@@ -61,12 +61,16 @@
 
 .friends a {
   color: #000;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
   transition: .3s ease;
   line-height: 1;
 }
 
 .friends a:hover {
   color: #ababab;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
   transition: .3s ease;
 }
 
@@ -75,26 +79,40 @@
 @media (max-width: 640px) {
 
   .friends__container {
-    padding: 0 10px;
+    padding: 0 20px;
+  }
+
+  .friends__left {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 20%;
   }
 
   .friends__left > img {
-    width: 40px;
+    width: 30px;
   }
 
   .friends__left > span {
-    font-size: 44px;
+    font-size: 34px;
     border-bottom: 1px solid #000;
     line-height: 0.9;
+    letter-spacing: 3.5px;
   }
 
   .friends__right {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 1.2;
-    letter-spacing: 2px;
+    letter-spacing: 0.8px;
     border-left: 1px solid #000;
     padding-left: 5px;
     margin-left: px;
   }
 
+  .friends a:hover {
+    color: #000000;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
 }

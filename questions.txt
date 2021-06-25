@@ -1,10 +1,13 @@
-- brouettes à aligner (roues)
 
 Version mobile : 
+ - menu burger en haut à gauche avec juste les titres qui descend.
+ - animation ondulation sur la barre du milieu sur le burger
+
+
+ Done : 
+ - friends trop gros (chaque contact sur un ligne max)
+ - brouettes à aligner (roues)
  - plus d'espace entre visuel 3D et le petit texte
  - hover à remettre en bandeau sur projets
  - sablier trop haut
- - friends trop gros (chaque contact sur un ligne max)
- - menu burger en haut à gauche avec juste les titres qui descend.
- - animation ondulation sur la barre du milieu sur le burger
- - diminuer word spacing sur la ligne architecture . paysage... de collectif
+ - diminuer word spacing sur la ligne architecture . paysage... de collectif 

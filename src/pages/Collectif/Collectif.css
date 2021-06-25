@@ -174,6 +174,7 @@
     font-size: 16pt;
     text-align: center;
     font-weight: bold;
+    word-spacing: -4px;
   }
   .collectif__container div:nth-of-type(5) {
     font-size: 20pt;
@@ -190,9 +191,9 @@
 
   .collectif__video .wip_hourglass {
     position: absolute;
-    width: 5.2px;
-    top: 125.4px;
-    left: 131px;
+    width: 6.8px;
+    top: 166.2px;
+    left: 129px;
     -webkit-filter: blur(0);
           filter: blur(0);
   }
