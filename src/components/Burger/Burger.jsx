@@ -17,9 +17,8 @@ class Burger extends React.Component {
         e.preventDefault()
 
         const element = document.querySelector(this.getAttribute('href')).getBoundingClientRect().top
-        const yOffset = index !== 4 ? -100 : 0
         window.scrollTo({
-            top: element + yOffset + window.pageYOffset,
+            top: element + window.pageYOffset,
             behavior: 'smooth'
         })
       })
@@ -28,6 +27,7 @@ class Burger extends React.Component {
     document.querySelector('.lines').addEventListener('click', () => {
       this.toggleMenu()
     })
+
   }
 
   toggleMenu(visible = this.state.visible) {
@@ -48,7 +48,7 @@ class Burger extends React.Component {
       <div className='burger hide_desktop'>
         <div className="lines">
           <span></span>
-          <span></span>
+          <span className='wave'></span>
           <span></span>
         </div>
         <div className="burger__menu">

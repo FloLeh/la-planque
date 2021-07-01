@@ -13,9 +13,18 @@ export default function Friends() {
         <div className="friends__right">
           Rabeb CHEKIR - Tunisie <br/>
           Gaëlle LOCHET - Rennes [35]<br/>
-          <a href="http://xyz-architectes.fr/" target='blank'>xyz architectes - Paris [75]</a><br/>
-          <a href="https://www.bconcept-createurdemagasin.com/" target='blank'>B.concept/créateur de magasin - Nantes [44]</a><br/>
-          <a href="https://www.hilo-interieur.fr/" target='blank'>Hïlo/architecte intérieur - Angers [49]</a><br/>
+          <div className='friends__link'>
+            <a href="http://xyz-architectes.fr/" target='blank'>xyz architectes - Paris [75]</a>
+            <span></span>
+          </div>
+          <div className='friends__link'>
+          <a href="https://www.bconcept-createurdemagasin.com/" target='blank'>B.concept/créateur de magasin - Nantes [44]</a>
+            <span></span>
+          </div>
+          <div className='friends__link'>
+          <a href="https://www.hilo-interieur.fr/" target='blank'>Hïlo/architecte intérieur - Angers [49]</a>
+            <span></span>
+          </div>
           Casa deluxe FR/constructeur - Nantes [44]
         </div>
       </div>
