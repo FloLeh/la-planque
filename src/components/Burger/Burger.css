@@ -24,13 +24,37 @@
   margin: 4px;
   background: #000000;
   border-radius: 10px;
+  -webkit-transition: .5s ease;
+  -o-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-transform-origin: left;
+      -ms-transform-origin: left;
+          transform-origin: left;
+
 }
 
-.burger .lines span:nth-of-type(2) {
+.burger__first {
   width: 40px;
   height: 2px;
-  transform-origin: left;
-  transition: all 0.3s ease;
+  -webkit-transform: rotate(45deg) translateY(-6px);
+      -ms-transform: rotate(45deg) translateY(-6px);
+          transform: rotate(45deg) translateY(-6px);
+}
+
+.burger__second {
+  width: 40px;
+  height: 2px;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+}
+
+.burger__third {
+  width: 40px;
+  height: 2px;
+  -webkit-transform: rotate(-45deg) translateY(6px);
+      -ms-transform: rotate(-45deg) translateY(6px);
+          transform: rotate(-45deg) translateY(6px);
 }
 
 .burger__menu {

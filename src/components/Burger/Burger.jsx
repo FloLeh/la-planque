@@ -33,11 +33,17 @@ class Burger extends React.Component {
   toggleMenu(visible = this.state.visible) {
     if (!visible) {
       document.querySelector('.burger__menu').classList.add('visible')
+      document.querySelector('.lines span:nth-of-type(1)').classList.add('burger__first')
+      document.querySelector('.lines span:nth-of-type(2)').classList.add('burger__second')
+      document.querySelector('.lines span:nth-of-type(3)').classList.add('burger__third')
       this.setState({
         visible: true
       })
     } else {
       document.querySelector('.burger__menu').classList.remove('visible')
+      document.querySelector('.lines span:nth-of-type(1)').classList.remove('burger__first')
+      document.querySelector('.lines span:nth-of-type(2)').classList.remove('burger__second')
+      document.querySelector('.lines span:nth-of-type(3)').classList.remove('burger__third')
       this.setState({
         visible: false
       })
@@ -48,7 +54,7 @@ class Burger extends React.Component {
       <div className='burger hide_desktop'>
         <div className="lines">
           <span></span>
-          <span className='wave'></span>
+          <span></span>
           <span></span>
         </div>
         <div className="burger__menu">
