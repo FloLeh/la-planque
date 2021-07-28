@@ -35,8 +35,6 @@
 @media (max-width: 640px) {
   .carousel {
     width: 90%;
-    height: max-content;
-    /* max-height: 70vh; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -60,7 +58,7 @@
   }
   
   .carousel__image__single {
-    max-height: 400px;
+    /* max-height: 400px; */
     width: auto;
     max-width: 1000px;
   }
