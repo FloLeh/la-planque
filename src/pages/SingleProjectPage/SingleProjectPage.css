@@ -148,6 +148,7 @@
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     height: auto;
+    min-height: 100vh;
   }
 
   .single-project__next {
