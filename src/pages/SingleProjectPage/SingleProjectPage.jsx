@@ -63,7 +63,7 @@ export const SingleProjectPage = ({ match }) => {
         <div className='project-description'>
           <p>{cleanTitle(project.title)}</p>
           {project.content && (<p>{content}</p>)}
-          {project.legend && (<p className='project-legend'>{project.legend}</p>)}
+          {project.legend && (<p>{project.legend}</p>)}
         </div>
         <a className="single-project__next" href={`/projets/${cover}/${nextProjectTitle()}`}>
           <img src={next_arrow} alt="next"/>
