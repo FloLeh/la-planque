@@ -130,6 +130,10 @@
   font-size: 20px;
 }
 
+.project-legend {
+  color: red;
+}
+
 .project-description p {
   margin: 0;
 }

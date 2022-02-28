@@ -33,12 +33,12 @@
       ],
     "visuels_3d": 
       [
-        {"title": "Complexe hôtelier.", "content": ""},
-        {"title": "Lycée expérimental - Espaces communs.", "content": ""},
-        {"title": "Réception d'un ERP.", "content": ""},
-        {"title": "Espace aquatique d'un camping.", "content": ""},
-        {"title": "Bâtiment d'entreprise.", "content": ""},
-        {"title": "Constructeur - Bâtiment existant transformé en 4 logements indépendants.", "content": ""}
+        {"title": "Complexe hôtelier.", "content": "", "legend": "Créateur du projet - Agence \"Atelier M\"."},
+        {"title": "Lycée expérimental - Espaces communs.", "content": "", "legend": ""},
+        {"title": "Réception d'un ERP.", "content": "", "legend": "Créateur du projet - Agence \"Camp Indesign\"."},
+        {"title": "Espace aquatique d'un camping.", "content": "", "legend": "Créateur du projet - Agence \"Camp Archi\"."},
+        {"title": "Bâtiment d'entreprise.", "content": "", "legend": "Créateur du projet - Agence \"Camp Archi\"."},
+        {"title": "Constructeur - Bâtiment existant transformé en 4 logements indépendants.", "content": "", "legend": "Créateur du projet - Agence \"Atelier M\"."}
       ]
   }
 }
