@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import data from '../../projets.json'
 import './SingleProjectPage.css'
-import { Redirect, withRouter } from 'react-router-dom'
 import { Carousel } from '../../components'
 import next_arrow from '../../assets/images/arrow_project.png'
 
@@ -39,11 +38,6 @@ export const SingleProjectPage = ({ match }) => {
     }
   }
 
-  if (!project) {
-    return (
-      <Redirect to="/" />
-    )
-  }
 
   const changeContent = (index) => {
     setContent(project.content[index])
@@ -73,4 +67,4 @@ export const SingleProjectPage = ({ match }) => {
   )
 }
 
-export default withRouter(SingleProjectPage)
+export default SingleProjectPage

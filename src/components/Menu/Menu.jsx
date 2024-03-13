@@ -11,7 +11,7 @@ export class Menu extends Component {
         const element = document.querySelector(this.getAttribute('href')).getBoundingClientRect().top
         const yOffset = index !== 4 ? -100 : 0
         window.scrollTo({
-            top: element + yOffset + window.pageYOffset,
+            top: element + yOffset + window.scrollY,
             behavior: 'smooth'
         })
       })

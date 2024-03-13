@@ -56,25 +56,12 @@
   letter-spacing: 4px;
   line-height: 1.1;
   z-index: 20;
+  text-align: center;
 }
 
 .contact__tel p {
   margin: 0;
 }
-
-.contact__tel .lisa {
-  text-align: right;
-  border-right: 1px solid #000;
-  padding-right: 20px;
-  margin-right: 20px;
-}
-
-/* .contact__tel .sep {
-  height: 92%;
-  width: 1px;
-  border-right: 1px solid #000;
-  margin: 0 20px 0 19px;
-} */
 
 .contact__tel .tel {
   color: rgb(62, 145, 173);

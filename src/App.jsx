@@ -1,6 +1,6 @@
 import './App.css'
 import { Header } from './components'
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import React, { Component } from 'react'
 import { Missions, Home, Projets, Collectif, Contact, SingleProjectPage } from './pages'
 import AOS from 'aos'
@@ -16,9 +16,9 @@ class App extends Component {
     return (
       <div className="App">
         <FixedBackground/>
-        <Router>
-          <Switch>
-            <Route path='/' exact render={() => (
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={(
               <React.Fragment>
                 <div className="header-bg hide_mobile"></div>
                 <Header/>
@@ -30,9 +30,8 @@ class App extends Component {
               </React.Fragment>
             )}/>
             <Route exact path='/projets/:cover/:projectTitle' component={SingleProjectPage}/>
-            <Redirect to="/" />
-          </Switch>
-        </Router>
+          </Routes>
+        </BrowserRouter>
       </div>
     )
   }

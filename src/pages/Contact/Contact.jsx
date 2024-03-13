@@ -23,12 +23,6 @@ export class Contact extends Component {
               <a href='tel:+33632668186' className="tel">06.32.66.81.86</a>
               <p className="nom">Lisa LEHUÉDÉ</p>
             </div>
-            <div className="sep"></div>
-            <div className="nina">
-              <p className="taff">INGÉNIEURE PAYSAGISTE</p>
-              <a href='tel:+33619040488' className="tel">06.19.04.04.88</a>
-              <p className="nom">Nina BÉNÉTEAU</p>
-            </div>
           </div>
         <LazyLoadImage className='plante' src={plant} alt="plante"/>
           <div className="signature"><span>site réalisé par florian lehuédé</span> <span> - florianlehuede@gmail.com</span></div>
